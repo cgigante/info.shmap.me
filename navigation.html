@@ -1,0 +1,61 @@
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        
+      <div class="container">
+          
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://shmap.me/index.php">
+            <!-- <img src="img/about/logotext.png" alt="Shmap Logo" alt="Shmap Logo"> -->
+            <img src="http://shmap.me/img/logotext.png" alt="Shmap Logo" alt="Shmap Logo">
+          </a>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+
+            <li <?php if ($page=="home") : ?> class="active" <?php endif; ?> >
+              <a href="http://shmap.me/index.php">Home</a>
+            </li>
+            
+            <li <?php if ($page=="about") : ?> class="active" <?php endif; ?> class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://info.shmap.me"><strong>About Shmap</strong></a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#tutorial"><strong>Shmap Tutorial</strong></a></li>
+                <li><a href="#signingUp">Signing Up</a></li>
+                <li><a href="#basics">Shmap Basics</a></li>
+                <li><a href="#sendingShmaps">Sending Shmaps</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#mainSections"><strong>Main Sections</strong></a></li>
+                <li><a href="#tabs">Intro to Shmap Tabs</a></li>
+                <li><a href="#messages">Messages Tab</a></li>
+                <li><a href="#explore">Explore Tab</a></li>
+                <li><a href="#contacts">Contacts Tab</a></li>
+                <li><a href="#settings">Settings Tab</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#FAQs"><strong>FAQs</strong></a></li>
+              </ul>
+            </li>
+
+            <li <?php if ($page=="contact") : ?> class="active" <?php endif; ?>>
+              <a href="http://shmap.me/contact.php">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+

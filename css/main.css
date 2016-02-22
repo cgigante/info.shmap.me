@@ -1,0 +1,174 @@
+.disabled {
+  cursor: default !important;
+}
+
+#shmapLogo {
+  max-width: 200px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  float: left;
+}
+
+
+/* Nav */
+.navbar-brand:hover {
+  opacity: 0.5;
+}
+
+
+/*in-app tutorial:*/
+
+#links {
+  margin-left: 12px;
+}
+.thumbnailPhoto {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  max-width: 110px;
+}
+
+div > a > img.thumbnailPhotoSmall {
+  margin-bottom: 1.25em;
+}
+
+
+
+
+/********************* 
+Main Section Images 
+*********************/
+
+.photoLabelContainer {
+  float: left;
+  /*width: 45%;*/
+}
+
+  .photoLabelContainerPhoto {
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 300px;
+  }
+
+.videoTutorial {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 90%;
+  max-height: 450px;
+}
+
+.thumbnailPhotoMain {
+  margin: 0 auto;
+  max-width: 75%;
+  max-height: 300px;
+  margin-bottom: 25px;
+}
+
+.thumbnailPhotoSmall {
+  float: left;
+  max-width: 40%;
+  max-height: 200px;
+  margin-left: 5%;
+}
+
+.inAppTutorialImage {
+  float: left;
+  max-width: 45%;
+  max-height: 300px;
+  margin-left: 2%;
+  margin-bottom: 10px;
+}
+
+
+  .thumbnailPhoto, 
+  .thumbnailPhotoMain,
+  .thumbnailPhotoSmall,
+  .photoLabelContainerPhoto,
+  .inAppTutorialImage {
+    -moz-box-shadow:    0px 4px 4px 0px #ccc;
+      -webkit-box-shadow: 0px 4px 4px 0px #ccc;
+      box-shadow:         0px 4px 4px 0px #ccc; 
+  }
+
+  .thumbnailPhoto:hover, 
+  .thumbnailPhotoMain:hover,
+  .thumbnailPhotoSmall:hover,
+  .photoLabelContainerPhoto:hover,
+  .inAppTutorialImage:hover {
+    opacity: 0.6;
+  }
+
+
+.aboutLabelDiv {
+  margin: 0 auto !important;
+}
+
+.aboutLabel {
+  background-color: #55647e;
+  color: white; 
+  padding: 10px 0;
+  border-radius: 25px;
+  border: 2px solid #3498db;
+}
+
+
+.listHeader {
+  /*text-decoration: underline;*/
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* This pushes down the web development section anchor so it isn't obscured under the nav bar */
+#aboutShmap:before, 
+#signingUp:before, 
+#basics:before, 
+#sendingShmaps:before, 
+#mainSections:before, 
+#tabs:before, 
+#messages:before, 
+#explore:before, 
+#contacts:before, 
+#settings:before, 
+#sendingShmaps:before, 
+#personal:before,
+#group:before,
+#shouts:before,
+#reminders:before, 
+#tutorial:before, 
+#FAQs:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
+}
+
+.tutorialThumbnail {
+  min-width: 150px !important;
+  max-width: 325px !important;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+
+
+div.text-grey p,
+div.text-grey div,
+div.text-grey a {
+  color: grey;
+  font-size: 0.75em;
+}
+
+
+/* Media Queries */
+@media all and (max-width:500px) {
+
+  #shmapIntro {
+    clear: both;    
+  }
+
+  #tableOfContents {
+    display: none;
+  }
+
+}
