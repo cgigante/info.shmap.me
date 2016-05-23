@@ -179,7 +179,7 @@
                 <ul id="signingUp" class="list-group">
 
                   <li class="list-group-item disabled">
-                    <h4 class="listHeader"><img src="img/about/icons/profilepic.png" style="max-width:25px;"> Signing Up for Shmap</h4>
+                    <h4 class="listHeader"><!-- <img src="img/about/icons/profilepic.png" style="max-width:25px;"> --> Signing Up for Shmap</h4>
                     <p>Before you do anything, you need to register as a Shmap user. This can be done either by using Facebook or registering manually by Email. After you've downloaded the app and read through the app tutorial, you'll be brought to the Sign-up/Log-in Page. From there, you have three options:</p>
                   </li>
 
@@ -204,16 +204,17 @@
 
 
                   <li class="list-group-item">
-                    <p class="listHeader">Sign Up with Email (see screenshots for further details)</p>
+                    <p class="listHeader">Sign Up with Email</p>
                     
                     <ul>
                       <li><p>Click "Sign Up with Email"</p></li>
                       <li><p>Enter all required fields.</p></li>
                       <li><p>Enter your phone number. This is optional, but highly recommended. This will allow Shmap to add your friends to your Shmap Contacts page without you having to invite them manually. Don't worry, we won't send mass invites to your contacts list. This process only uses your device's contacts to find <em>existing</em> Shmap users.</p></li>
-                      <li><p>Below are screenshots detailing the Sign Up with Email process</p></li>
+                      <!-- <li><p>Below are screenshots detailing the Sign Up with Email process</p></li> -->
                     </ul>
 
-                    <div id="links2">
+                    <!-- <div id="links2">
+
                       <a href="../img/about/1-registration.png" title="Sign-up/Log-in Page" data-gallery>
                         <img class="img-responsive thumbnailPhotoSmall" src="../img/about/1-registration.png" alt="Sign-up/Log-in Page" />
                       </a> 
@@ -229,7 +230,8 @@
                       <a href="../img/about/3.1-registrationPhone.png" title="Register By Email - Add Phone Number" data-gallery>
                         <img class="img-responsive thumbnailPhotoSmall" src="../img/about/3.1-registrationPhone.png" alt="Register By Email - Add Phone Number" />
                       </a>
-                    </div>
+
+                    </div> -->
                     <div class="clear"></div>
 
                   </li>
@@ -245,16 +247,14 @@
                 </ul>
               </div>
           
-  <!-- 1. End Signing Up for Shmap -->
+  <!-- End Signing Up for Shmap -->
 
 
 
 
-  <!-- 2. Begin The Basics -->
+  <!-- 2. Begin Shmap Basics -->
               <div class="col-md-12">
-                
                 <ul id="basics" class="list-group">
-                  
                   <li class="list-group-item disabled">
                     <h4 class="listHeader"><img src="img/about/icons/shmap_logo.png" style="max-width:20px;"> Shmap Basics</h4>
                     <p>After you've created your account, you're ready to begin Shmapping. Before you do so, it's good to get acquainted with some basic functionality.</p>
@@ -262,32 +262,25 @@
 
                   <!-- Begin Shmap Types Defined -->
   								<li class="list-group-item">
-                    
                     <p class="listHeader">Shmap Types Defined</p>
-                    
                     <p>There are several distinct Shmap message types you can send and/or receive in the app. The main message types are listed below. The accompanying icons presented denote these message types in the app.</p>
                     
                     <ul class="ulShmapTypes">
   										<li id="liPersonal">
-                      	<p><img src="../img/about/icons/personal.png">&nbsp;<span style="font-weight:bold;"> <a href="#personal">Personal Shmaps</a></span> - These messages are sent privately from you to one or more (i.e. groups) of your Shmap contacts. These Shmaps can be sent directly to your contact or be tied to a geolocation. It's up to you!</p>
+                      	<p><img src="../img/about/icons/personal.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#personal">Personal Shmaps</a></span> - These messages are sent privately from you to one or more (i.e. groups) of your Shmap contacts. These Shmaps can be sent directly to your contact or be tied to a geolocation. It's up to you!</p>
                       </li>
-                      
                       <li id="liShout">
-                      	<p><img src="../img/about/icons/shout.png">&nbsp;<span style="font-weight:bold;"> <a href="#shouts">Shouts</a></span> - These messages are publicly-visible location-based messages that can be found in the "<a href="#explore">Explore</a>" tab of the app. If you happen to enter the vicinity where a Shout was left, then you will receive a notification.</p>
+                      	<p><img src="../img/about/icons/shout.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#shouts">Shouts</a></span> - These messages are publicly-visible location-based messages that can be found in the "<a href="#explore">Explore</a>" tab of the app. If you happen to enter the vicinity where a Shout was left, then you will receive a notification.</p>
                       </li>
-  										
                       <li id="liSponsored">
-                      	<p><img src="../img/about/icons/sponsored.png">&nbsp;<span style="font-weight:bold;"> Sponsored Shmaps</span> - These messages are created by the Shmap team or our business partners. Like Shouts, are found in the <a href="#explore">Explore</a> Tab or received when you enter their location.</p>
+                      	<p><img src="../img/about/icons/sponsored.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> Sponsored Shmaps</span> - These messages are created by the Shmap team or our business partners. Like Shouts, are found in the <a href="#explore">Explore</a> Tab or received when you enter their location.</p>
                       </li>
-
                       <li id="liReminder">
-                        <p><img src="../img/about/icons/reminder.png">&nbsp;<span style="font-weight:bold;"> <a href="#reminders">Reminders</a></span> - A "Reminder" is a location-based message you send to yourself. Press the Reminder icon at the top right of the app, add a location, type your message, and click "send" - When you physically enter that location, you'll receive your reminder!</p>
+                        <p><img src="../img/about/icons/reminder.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#reminders">Reminders</a></span> - A "Reminder" is a location-based message you send to yourself. On the "New Message" screen, press the Reminder icon, add a location, type your message, and click "send." When you physically enter the location you added, you'll receive your reminder!</p>
                       </li>
-
                       <li id="liGroup">
-                        <p><img src="../img/about/icons/group.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#group">Group Messages</a></span> - Group messages are simply any message thread which contains more than two people in it. These can be sent with or without a location trigger.</p>
-                      </li>                    
-
+                        <p><span style="font-weight:bold;"> <a href="#group">Group Messages</a></span> - Group messages are simply any message thread which contains more than two people in it. These can be sent with or without a location trigger.</p>
+                      </li>
                     </ul>
                   </li>
                   <!-- End Shmap Types Defined -->
@@ -295,26 +288,22 @@
                 </ul>
 
               </div>
-  <!-- 2. End The Basics -->
+  <!-- End The Basics -->
 
-
-
-
-                      
 
 
   <!-- 3. Begin Sending Shmaps -->
               <div class="col-md-12">
                 <ul id="sendingShmaps" class="list-group">
                   <li class="list-group-item disabled">
-                    <h4 class="listHeader" id="sendingShmaps"><img src="img/about/icons/composeicon2.png" style="max-width:20px;"> Sending Shmaps</h4>
-                    <p>To compose a Shmap message, click the "Compose Message" icon at the top right of most screens (see <a href="../img/about/icons/compose.png" target="_blank">screenshot</a>). For details on how to send each variety of Shmap, continue reading below.</p>
+                    <h4 class="listHeader" id="sendingShmaps">Sending Shmaps</h4>
+                    <p>To compose a Shmap message, click the "New" link (found at the top right of the screen in the "Messages" and "Explore" tabs) (see <a href="../img/about/icons/compose.png" target="_blank">screenshot</a>). For details on how to send each variety of Shmap, continue reading below.</p>
                   </li>
 
                   <li class="list-group-item">
                     <p id="personal" class="listHeader">Personal Message</p>
                       <ul>
-                        <li><p>Click the "<a href="../img/about/icons/compose.png" target="_blank">Compose Message</a>" icon. This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
+                        <li><p>Click "New" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
                         <li><p>Enter a recipient in the "<span class="boldStyle">To:</span>" field. A recipiant's name can be searched for simply by typing. Or you can click the "+" icon in the text field to engage a drop-down which contains all of your contacts to choose from. <br>Note: the recipient <em>must be in your Contacts</em> in order for you to send them a Shmap message.</p></li>
                         <li>
                           <p>
@@ -331,15 +320,13 @@
                       </ul>
                   </li>
 
+
                   <li class="list-group-item">
-                    
                     <p id="group" class="listHeader">Group Messages</p>
-                      
                       <div class="row">
-                        
                         <div class="col-md-9">
                           <ul>
-                            <li><p>Click the "<a href="../img/about/icons/compose.png" target="_blank">Compose Message</a>" icon. This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
+                            <li><p>Click "New" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
                             <li><p>Enter a first recipient in the "To:" field.</p></li>
                             <li><p>Enter another recipient in the "To:" field. (Enter as many contacts as you like.) Note that usernames in the "To:" field are separated by a comma.</p></li>
                             <li><p>Optional: Add a "Location." (If you choose a Location, then the message will only be delivered to the recipients who actually enter the location's physical proximity.)</p></li>
@@ -353,9 +340,8 @@
                         <div class="col-md-3">
                           <a href="../img/about/group.png" target="_blank"><img class="img-responsive thumbnailPhotoMain thumbnail" src="../img/about/group.png" alt="Group Message" /></a>
                         </div>
-                        
-                      </div>
 
+                      </div>
                   </li>
 
                   <li class="list-group-item">
@@ -366,7 +352,7 @@
 
                       <div class="col-md-9">
                         <ul>
-                          <li><p>Click the "<a href="../img/about/icons/compose.png" target="_blank">Compose Message</a>" icon. This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
+                          <li><p>Click "New" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
                           <li><p>Type "Shout" as the recipient name in the "To:" field. ("Shout" is also the first recipient listed in the "+" dropdown.)</p></li>
                           <li><p>Type an address or select a location from the "Location" dropdown.</p></li>
                           <li><p>Type your message in the text field.</p></li>
@@ -396,7 +382,7 @@
 
                       <div class="col-md-9">
                         <ul>
-                          <li><p>Click the <img src="../img/about/icons/reminder.png">&nbsp;<span style="font-weight:bold;">Reminder</span> icon. This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>, but this time, a recipient called "Me" is prepopulated in the "To" field. (Reminders are Location Shmaps you send to yourself!)</p></li>
+                          <li><p>Click "New" to open the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>. Click the <img src="../img/about/icons/reminder.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;">"Remind Me"</span> icon, which populates "Me" in the "To" field.</p></li>
                           <li><p>Type an address or select a location from the "Location" dropdown.</p></li>
                           <li><p>Type your Reminder message in the text field.</p></li>
                           <li><p>Optional: Attach a photo.</p></li>
@@ -417,7 +403,7 @@
                 </ul>
               </div>
 
-  <!-- 3. End Sending Shmaps -->
+  <!-- End Sending Shmaps -->
 
 
 
@@ -471,7 +457,7 @@
                     <p id="messages" class="listHeader">Messages Tab</p>
                       <ul>
                         
-                        <li><p><span class="boldStyle">Sending New Messages</span>: Click the "<a href="../img/about/icons/compose.png" target="_blank">Compose Message</a>" icon. This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>. </p></li>
+                        <li><p><span class="boldStyle">Sending New Messages</span>: Click "New" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>. </p></li>
                         
                         <li><p><span class="boldStyle">Read vs. Unread Messages</span>: See screenshots below:</p></li>
 
@@ -654,7 +640,7 @@
                 </ul>
               </div>
 
-  <!-- 4. End App Sections -->
+  <!-- End App Sections -->
 
 
 

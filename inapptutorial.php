@@ -198,16 +198,8 @@
   		                  <img class="inAppTutorialImage" src="../img/about/inAppTutorial/thumbnails/3-Tutorial_ExploreShouts.jpg" alt="Slide 3" />
   		                </a>
 
-  		                <a class="thumbnailPhotoLink" href="../img/about/inAppTutorial/4-Tutorial_Reminder_etc.jpg" title="Tutorial Slide 4" data-gallery>
-  		                  <img class="inAppTutorialImage" src="../img/about/inAppTutorial/thumbnails/4-Tutorial_Reminder_etc.jpg" alt="Slide 4" />
-  		                </a>
-
-  		                <a class="thumbnailPhotoLink" href="../img/about/inAppTutorial/5-Tutorial_Contacts.jpg" title="Tutorial Slide 5" data-gallery>
-  		                  <img class="inAppTutorialImage" src="../img/about/inAppTutorial/thumbnails/5-Tutorial_Contacts.jpg" alt="Slide 5" />
-  		                </a>
-                      
-  		                <a class="thumbnailPhotoLink" href="../img/about/inAppTutorial/6-Tutorial_Thanks_map.jpg" title="Tutorial Slide 6" data-gallery>
-  		                  <img class="inAppTutorialImage" src="../img/about/inAppTutorial/thumbnails/6-Tutorial_Thanks_map.jpg" alt="Slide 6" />
+  		                <a class="thumbnailPhotoLink" href="../img/about/inAppTutorial/5-Tutorial_Contacts.jpg" title="Tutorial Slide 4" data-gallery>
+  		                  <img class="inAppTutorialImage" src="../img/about/inAppTutorial/thumbnails/5-Tutorial_Contacts.jpg" alt="Slide 4" />
   		                </a>
 
   		              </div>
@@ -223,9 +215,9 @@
   <!-- End "About Shmap" section -->
 
   <!-- Begin Attributions -->
-              <div class="attributions text-grey well">
+              <!-- <div class="attributions text-grey well">
                 <h4>Arrows in the app tutorial designed by <a class="boldStyle" href="http://cdn.flaticon.com/license/license.pdf" style="font-size: 1em;">Freepik</a></h4>
-              </div>
+              </div> -->
   <!-- End Attributions -->
 
 
