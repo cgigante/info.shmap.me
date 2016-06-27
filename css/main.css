@@ -11,6 +11,11 @@
 }
 
 
+/*Orange Color*/
+.orangeColor {
+  color: #e69f12;
+}
+
 /* Nav */
 .navbar-brand:hover {
   opacity: 0.5;
