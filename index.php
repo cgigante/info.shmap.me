@@ -5,57 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Shmap">
-
-    <link rel="shortcut icon" href="http://www.shmap.me/img/icon.png" />
-
-    <!-- Bootstrap Core CSS -->
-    <link href="http://www.shmap.me/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="http://www.shmap.me/css/main.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-    
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-    
-    
-    <!-- Image Gallery -->
-    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="http://www.shmap.me/css/bootstrap-image-gallery.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
-    <!-- Lazy Load JS file -->
-    <script src="js/lazysizes.min.js"></script>
-
-    <!-- This code will notify users if they are using an out-of-date browser  -->
-    <script> 
-        var $buoop = {c:2}; 
-        function $buo_f(){ 
-         var e = document.createElement("script"); 
-         e.src = "//browser-update.org/update.js"; 
-         document.body.appendChild(e);
-        };
-        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
-        catch(e){window.attachEvent("onload", $buo_f)}
-    </script>
-
-
-
-    <title>About Shmap | Info &amp; Help</title>
-
-  </head>
+  <?php include_once("_head.php") ?>
 
   <body>
 
@@ -63,21 +13,15 @@
   <?php include_once("analyticstracking.php") ?>
   <?php include_once("navigation.html") ?>
 
-
-
-
-
   <!-- Page Content -->
     <div class="wrap">
 
       <div class="container" id="infoPage">
 
         <div class="row">
-	
-          <div class="col-md-1"></div>
 
   <!-- Begin Actual About/Tutorial/FAQs -->
-          <div class="col-md-10" id="infoCenterDiv">
+          <div class="col-md-12" id="infoCenterDiv">
             
   <!-- Chat Bubble -->
             <div class="chatBubble animated bounceIn">
@@ -261,11 +205,8 @@
                   </li>
 
                 </ul>
-              </div>
-          
+              </div>     
   <!-- End Signing Up for Shmap -->
-
-
 
 
   <!-- 2. Begin Shmap Basics -->
@@ -419,6 +360,7 @@ Begin SENDING SHMAPS
                     </ul>
                     
                     <h4 class="text-center">click to enlarge:</h4>
+                    
                     <div id="linksPersonalLocationMessages">
                       <div class="col-md-6">
                         <a href="../img/about/personal/3personal-yesLocation.jpg" title="Personal Message - Composing With a Location" data-gallery>
@@ -496,11 +438,8 @@ Begin SENDING SHMAPS
 
 <!-- Reminders -->
                   <li class="list-group-item">
-
                     <p id="reminders" class="listHeader">Reminders</p>
-
                     <div class="row">
-
                       <div class="col-md-9">
                         <ul>
                           <li><p>Click "<span class="boldStyle orangeColor">New</span>" to open the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>. Click the <img src="../img/about/icons/reminder.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;">"Remind Me"</span> icon, which populates "Me" in the "To" field.</p></li>
@@ -515,12 +454,8 @@ Begin SENDING SHMAPS
                       <div class="col-md-3">
                         <a href="../img/about/reminder.png" target="_blank"><img class="img-responsive lazyload thumbnailPhotoMain thumbnail" src="../img/about/reminder.png" alt="Reminder Message" /></a>
                       </div>
-                      
                     </div>
-
                   </li>
-
-
                 </ul>
               </div>
 
@@ -538,40 +473,29 @@ Begin SENDING SHMAPS
 
                   <!-- Begin Tabs -->
                   <li class="list-group-item">
-                    
                     <p id="tabs" class="listHeader">Intro to the Shmap Tabs</p>
-                    
                     <p>There are four tabs in Shmap. Below is a brief introduction to them.</p>
-                    
                     <ul>
                       <li>
                         <p>"<span style="font-weight:bold;">Messages</span>" - The Messages tab is where all of your sent and received Shmaps are located.</p>
                       </li>
-
                       <li>
                         <p>"<span style="font-weight:bold;">Explore</span>" - The Explore tab is a feed of content containing Shouts and Sponsored messages from other Shmap users around you. Towards the top of the list are the Shmaps closest in proximity to you. As you scroll down, Explore displays Shmaps which are located further away. Keep scrolling to see what's been Shmapped in nearby cities, states, or even other countries!</p>
                       </li>
-
                       <li>
                         <p>"<span style="font-weight:bold;">Contacts</span>" - The Contacts tab is where you can find existing Shmap contacts, send out invites to others, and approve incoming Shmap contact requests.</p>
                       </li>
-
                       <li>
                         <p>"<span style="font-weight:bold;">Settings</span>" - The Settings tab is where you can edit your Profile, change your username, log out of Shmap, and more.</p>
                       </li>
-
                     </ul>
-                    
                     <br>
-                     
                     <img class="img-responsive lazyload thumbnailPhotoMain" src="../img/about/tabs.png" alt="Tabs" />
                     <div class="clear"></div>
-
                   </li>
                   <!-- End Tabs -->
 
-
-
+                  <!-- Begin Messages Tab -->
                   <li class="list-group-item">
                     <p id="messages" class="listHeader">Messages Tab</p>
                       <ul>
@@ -600,9 +524,7 @@ Begin SENDING SHMAPS
                     <br>
                     
                     <p class="listHeader">Inbox Filters for Messages</p>
-                    
                     <p>There are four filters in the inbox. Click the header text (which should default to "All messages") to produce a list of the filters for you to select from. As you select a filter, the text in the header will change and your inbox messages will display only the corresponding message types.</p>
-                    
                     <ul>
                       <li>
                         <p>"<span class="boldStyle">All Shmaps</span>" - This is the default inbox view and it contains all of your Shmaps, regardless of their type.</p>
@@ -617,19 +539,14 @@ Begin SENDING SHMAPS
                         <p>"<span class="boldStyle">Sponsored</span>" - This filter displays only Sponsored Shmaps in your inbox. Personal Shmaps and Shouts will not be visible.</p>
                       </li>
                     </ul>
-     
                     <div class="clear"></div>
-
                   </li>
+                  <!-- End Messages Tab -->
 
-
-
+                  <!-- Begin Explore Tab -->
                   <li class="list-group-item">
-                    
                     <p id="explore" class="listHeader">Explore Tab</p>
-                      
                       <div class="row">
-                        
                         <div class="col-md-12">
                           <p><span class="boldStyle">Overview</span>: Simply put, the <em>Explore</em> feed is your view into all of the Shouts around you! The Shouts closest to your current location will appear near the top. As you scroll down, the radius widens, giving you a look at Shouts further and further away. Think of Explore much like your Twitter or Instagram feeds. This is where you explore the Shmap universe.</p>
                           <ul>
@@ -640,31 +557,26 @@ Begin SENDING SHMAPS
                               <p>To view all of the Shouts at a location, click into the Grouped Shout visible in Explore and you will see a header at the top of the screen with the location name. Beneath this will be a list of all the Shouts at that location. You can then click into any of these Shouts to comment or Like them.</p>
                             </li>
                             <li><p><span class="boldStyle">Making friends in Explore</span>: Shmap is a social app, so the more contacts you have, the more fun it is to use! In Explore, you can meet other Shmap users and send contact invites to them. To do so, you'll need to visit their Profile. You can access any user's Profile by clicking on their Profile picture.</p></li>
-                            <!-- <li><p><span class="boldStyle">Foursquare</span>: Sometimes you might come across Foursquare content in Explore. We automagically pull some interesting locations from Foursquare's vast database to give your Shmap-hungry eyes more local content to feast on!</p></li> -->
                             <li><p><span class="boldStyle">Map View</span>: Click the "<span style="color: #e69f12;">Map</span>" link at the top left of the Explore screen. This will toggle your view from the standard list view to a Map view of the Explore feed. From this view, you can click on various Shouts and get driving directions to the locations they were left at!</p></li>
                           </ul>
                         </div>
-                        
-                      </div>
+                      </div> <!-- End Row -->
 
                   </li>
+                  <!-- End Explore Tab -->
 
+                  <!-- Begin Contacts Tab -->
                   <li class="list-group-item">
-
                     <p id="contacts" class="listHeader">Contacts Tab</p>
-
                     <div class="row">
-
                       <div class="col-md-9">
                         <p>The "Contacts" tab is where all of your Shmap contacts are collected. It is also here where you can invite other Shmap users to be contacts with you or even send invites to your iPhone contacts so that they can download Shmap.</p>
                         <ul>
-                          
                           <li>
                             <p>Your Contacts after installing Shmap for first time:</p>
                             <p>1. If you entered your phone number during registration and other friends of yours who were in your device contacts have downloaded Shmap, then they will be auto-added to your Contacts (assuming they also have you in their device contacts).</p> 
                             <p>2. If you didn't enter your phone number or none of your device contacts are using Shmap, then your Contacts list will only list yourself ("Me") and "Shmap Admin".</p>
                           </li>
-                          
                           <li>
                             <p><span class="boldStyle">"Add Contacts"</span> screen: To invite friends from your phone or other Shmap users to be contacts, <a href="../img/about/17-Contacts_Add.png" target="_blank">click the "Add" button</a> at the top right corner of the Contacts Tab. On this new screen, there are two tabs visible:</p>
                             <ul>
@@ -741,18 +653,14 @@ Begin SENDING SHMAPS
                       <div class="col-md-3">
                         <a href="../img/about/16-Contacts.png" target="_blank"><img class="img-responsive lazyload thumbnailPhotoMain thumbnail" src="../img/about/16-Contacts.png" alt="Contacts" /></a>
                       </div>
-
-                    </div>
-
+                    </div> <!-- End Row -->
                   </li>
+                  <!-- End Contacts Tab -->
 
-
+                  <!-- Begin Settings Tab -->
                   <li class="list-group-item">
-
                     <p id="settings" class="listHeader">Settings Tab</p>
-
                     <div class="row">
-
                       <div class="col-md-9">
                         <p>The "Settings" tab includes links to the following:</p>
                         <ul>
@@ -768,7 +676,6 @@ Begin SENDING SHMAPS
                                   <p><span class="boldStyle">Remove Profile</span>: This link appears at the <a href="../img/about/26-delete.png" target="_blank">bottom your Edit Profile screen</a>. Clicking it produces a popup asking you to confirm the deletion. If you confirm, then your Shmap account and all of your messages will be deleted permanently. Your information and messages cannot be retrieved, so please think about it before deleting.</p>
                                 </li>                                   
                                 <li><p><span class="boldStyle">Delete Shouts</span>. Your most recent Shout appears below your Profile information. As you scroll down, you'll see older Shouts. To delete a Shout from here, simply swipe to the left. This reveals a "Delete" button. Click it. Poof - away goes your Shout.</p></li>
-                           
                               </ul>
                               <li>
                                 <p><span class="boldStyle">Add Your Phone Number</span>: Remember when you registered for Shmap? Well, if you skipped the part where you can add your phone number, then fear not - you can still add it here. Now, if you already did add your number, then it will appear here and no further action is needed.</p>
@@ -776,12 +683,8 @@ Begin SENDING SHMAPS
                               <li>
                                 <p><span class="boldStyle">Logout</span>: Clicking this will log you out of Shmap and bring you to the Log In screen.</p>
                               </li>
-
-
                             </ul>
-
                           </li>
-                          
                           <li>
                             <p><span class="boldStyle">Notifications</span>: Here you you can toggle on and off notifications for the following:</p>
                             <ul>
@@ -793,23 +696,18 @@ Begin SENDING SHMAPS
                               </li>
                             </ul>
                           </li>
-
                           <li><p><span class="boldStyle">Terms of Service &amp; Privacy</span>: Clicking this brings up a web page with Shmap's Terms of Service and Privacy Policy details.</p></li>
-                          
                           <li><p><span class="boldStyle">About Shmap</span>: This screen provides the Shmap version number, a link to the "About" webpage, and the "<a href="mailto:help@ideally.net">help@ideally.net</a>" email address.</p></li>
-
                         </ul>
                       </div>
-
+                      
                       <!-- Screenshot on right -->
                       <div class="col-md-3">
                         <a href="../img/about/24-settings.png" target="_blank"><img class="img-responsive lazyload thumbnailPhotoMain thumbnail" src="../img/about/24-settings.png" alt="Settings" /></a>
                       </div>
-                      
                     </div>
-
                   </li>
-
+                  <!-- End Settings Tab -->
 
                 </ul>
               </div>
@@ -817,29 +715,22 @@ Begin SENDING SHMAPS
   <!-- End App Sections -->
 
 
-
-
   <!-- End Tutorial  -->
-              
 
               <hr><!-- break between main sections -->
 
               <div class="clear"></div>
 
-
-
-  <!-- **********************************
+  <!-- 
+  **********************************
   Begin FAQs
-  *********************************** -->
-
-
+  ********************************** 
+  -->
 
               <div id="FAQs">
-                
                 <div class="aboutLabelDiv">
                   <h3 class="text-center aboutLabel">Frequently Asked Questions</h3>
-                </div>  
-
+                </div>
                 <ul class="list-group">
                   <li class="list-group-item">
                     <p class="faqQuestion listHeader">Q: How do I send a Shmap?</p>
@@ -873,16 +764,9 @@ Begin SENDING SHMAPS
               </div>
   <!-- End FAQs -->
 
-
-
-
-
-
-            </div><!-- end Chat Bubble -->
+            </div><!-- end Big Chat Bubble -->
 
           </div><!-- end main content -->
-
-          <div class="col-md-1"></div>      
             
         </div><!-- /.row -->
         
@@ -895,83 +779,43 @@ Begin SENDING SHMAPS
   *********************************** -->
       <footer>
         <div class="container">
-
-          <div class="col-md-4 animated fadeIn">
-            <a href="http://www.shmap.me"><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive lazyload"></a>
-            <p class="text-muted">Copyright &copy; <?php echo date("Y") ?> ideally, LLC | Shmap</p>
-          </div>
-
-          <div class="col-md-4">
-            <div class="social-icon-div animated fadeIn">
-              <a href="https://www.facebook.com/shmap" target="_blank"><img src="http://www.shmap.me/img/social/Facebook.png" alt="Facebook" class="social-icon"></a>
-              <a href="https://twitter.com/shmapapp" target="_blank"><img src="http://www.shmap.me/img/social/Twitter.png" alt="Twitter" class="social-icon"></a>
-              <a href="http://www.instagram.com/shmapapp" target="_blank"><img src="http://www.shmap.me/img/social/Instagram.png" alt="Instagram" class="social-icon"></a>
+            <div class="col-md-4 animated fadeIn">
+              <a href="index.php"><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive"></a>
+              <p class="text-muted">Copyright &copy; <?php echo date("Y") ?> ideally, LLC | Shmap</p>
             </div>
-          </div>
 
+            <div class="col-md-4">
+              <a href="index.php">
+                <div class="social-icon-div animated fadeIn">
+                  <a href="https://www.facebook.com/shmap" target="_blank"><img src="img/social/Facebook.png" alt="Facebook Icon" class="social-icon"></a>
+                  <a href="https://twitter.com/shmapapp" target="_blank"><img src="img/social/Twitter.png" alt="Twitter Icon" class="social-icon"></a>
+                  <a href="http://www.instagram.com/shmapapp" target="_blank"><img src="img/social/Instagram.png" alt="Instagram Icon" class="social-icon"></a>
+                  <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank"><img src="img/social/appStore.png" alt="App Store Icon" class="social-icon"></a>
+                </div>
+              </a>
+            </div>
 
-          <div class="col-md-4">
-            <p class="text-muted footer-links-p">
-              <a href="http://www.shmap.me/contact.php" class="footer-link">Contact Us</a>
-              <br>
-              <a href="http://terms.shmap.me" class="footer-link">Terms &amp; Privacy Policy</a>
+            <div class="col-md-4">
+              <p class="text-muted footer-links-p">
+                <a href="contact.php" class="footer-link">Contact Us</a>
+                <br>
+                <a href="http://terms.shmap.me" class="footer-link">Terms &amp; Privacy Policy</a>
                 <br>
                 <a href="http://www.ideally.net" target="_blank" class="footer-link">ideally.net</a>
-            </p>
-          </div>
+              </p>
+            </div>
 
         </div>
-        
+
       </footer>
 
     </div> 
     <!-- end WRAP -->
 
-
-  <!-- The following script changes the navbar when scrolling down -->
-  <script>
-    $(function() {
-        //caches a jQuery object containing the header element
-        var header = $(".navbar");
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 50) {
-                header.addClass("navbarOnScroll");
-            } else {
-                header.removeClass("navbarOnScroll");
-            }
-        });
-    });
-  </script>
-
-
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="http://www.shamp.me/js/bootstrap.min.js"></script>
-
-  <!-- Image Gallery Javascript Links -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-  <script src="http://www.shamp.me/js/bootstrap-image-gallery.min.js"></script>
-  
-
-    <!-- ##########################The following script provides the SCROLL functionality ################################## -->
-    <script>
-    $('a[href^="#"]').on('click', function(event) {
-
-        var target = $( $(this).attr('href') );
-
-        if( target.length ) {
-            event.preventDefault();
-            $('html, body').animate({
-                scrollTop: target.offset().top
-            }, 1500);
-        }
-
-    });
-    </script>
-
+  <!-- Javascript/Jquery -->
+  <?php
+    include ("_code.php")
+  ?>
 
   </body>
 
