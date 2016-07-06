@@ -17,7 +17,8 @@
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
+
     <!-- Image Gallery -->
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="http://www.shmap.me/css/bootstrap-image-gallery.min.css">

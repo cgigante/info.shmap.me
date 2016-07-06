@@ -56,45 +56,7 @@
   <!-- Google Analytics tracking code -->
   <?php include_once("analyticstracking.php") ?>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-fixed-top" role="navigation">
-        
-      <div class="container">
-          
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://www.shmap.me"><img src="http://www.shmap.me/img/logotext.png" alt="Shmap Logo" class="img-responsive animated fadeInLeft" alt="Shmap Logo"></a>
-        </div>
-        
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-          <ul class="nav navbar-nav">
-
-            <li <?php if ($page=="home") : ?> class="active" <?php endif; ?> >
-              <a href="http://www.shmap.me/index.php">Home</a>
-            </li>
-            
-            <li <?php if ($page=="about") : ?> class="active" <?php endif; ?>>
-              <a href="http://info.shmap.me">About</a>
-            </li>
-
-            <li <?php if ($page=="contact") : ?> class="active" <?php endif; ?>>
-              <a href="http://www.shmap.me/contact.php">Contact</a>
-            </li>
-
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
-    </nav>
+  <?php include_once("navigation.html") ?>
 
 
   <!-- Page Content -->
@@ -106,35 +68,16 @@
 
 
 
-  <!-- Begin Tutorial PDF created for Beta Testing -->
-          <!-- <div class="col-md-12">
-          	<a href="../about/NYU_Tutorial.pdf" download>
-          		<h1 class="text-center" style="color:white;">
-                <span class="glyphicon glyphicon-download" aria-hidden="true"></span>
-                <br>
-                <span style="text-decoration: underline;">Shmap Beta Testers</span>: <br>To download additional materials to assist with your testing, please click here.
-              </h1>
-          	</a>
-          </div>
-          <div class="clear"></div>
-  				<hr> -->
-  <!-- End Tutorial PDF created for Beta Testing -->				
-
-
-
   <!-- Begin Actual About/Tutorial/FAQs -->
 
-          <div class="col-md-1"></div>
 
-          <div class="col-md-10" id="infoCenterDiv">
+          <div class="col-md-12" id="infoCenterDiv">
             
   <!-- Chat Bubble -->
             <div class="chatBubble animated bounceIn">
               <h1 class="text-center">In-app tutorial screens</h1>
 
               <hr>
-
-
 
   <!-- **********************************
   Begin "About Shmap" section
@@ -214,57 +157,49 @@
               
   <!-- End "About Shmap" section -->
 
-  <!-- Begin Attributions -->
-              <!-- <div class="attributions text-grey well">
-                <h4>Arrows in the app tutorial designed by <a class="boldStyle" href="http://cdn.flaticon.com/license/license.pdf" style="font-size: 1em;">Freepik</a></h4>
-              </div> -->
-  <!-- End Attributions -->
-
 
             </div><!-- end Chat Bubble -->
 
-          </div><!-- end main content -->
-
-          <div class="col-md-1"></div>        
+          </div><!-- end main content -->     
             
         </div><!-- /.row -->
         
       </div><!-- /.container -->
       <div class="clear"></div>
 
-
   <!-- **********************************
   Begin Footer
   *********************************** -->
       <footer>
         <div class="container">
-
-          <div class="col-md-4 animated fadeIn">
-            <a href="http://www.shmap.me"><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive"></a>
-            <p class="text-muted">Copyright &copy; 20<?php echo date("y");?> ideally, LLC | Shmap</p>
-          </div>
-
-          <div class="col-md-4">
-            <div class="social-icon-div animated fadeIn">
-              <a href="https://www.facebook.com/shmap" target="_blank"><img src="http://www.shmap.me/img/social/Facebook.png" alt="Facebook" class="social-icon"></a>
-              <a href="https://twitter.com/shmapapp" target="_blank"><img src="http://www.shmap.me/img/social/Twitter.png" alt="Twitter" class="social-icon"></a>
-              <a href="http://www.instagram.com/shmapapp" target="_blank"><img src="http://www.shmap.me/img/social/Instgram.png" alt="Instagram" class="social-icon"></a>
+            <div class="col-md-4 animated fadeIn">
+              <a href="index.php"><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive"></a>
+              <p class="text-muted">Copyright &copy; <?php echo date("Y") ?> ideally, LLC | Shmap</p>
             </div>
-          </div>
 
+            <div class="col-md-4">
+              <a href="index.php">
+                <div class="social-icon-div animated fadeIn">
+                  <a href="https://www.facebook.com/shmap" target="_blank"><img src="img/social/Facebook.png" alt="Facebook Icon" class="social-icon"></a>
+                  <a href="https://twitter.com/shmapapp" target="_blank"><img src="img/social/Twitter.png" alt="Twitter Icon" class="social-icon"></a>
+                  <a href="http://www.instagram.com/shmapapp" target="_blank"><img src="img/social/Instagram.png" alt="Instagram Icon" class="social-icon"></a>
+                  <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank"><img src="img/social/appStore.png" alt="App Store Icon" class="social-icon"></a>
+                </div>
+              </a>
+            </div>
 
-          <div class="col-md-4">
-            <p class="text-muted footer-links-p">
-              <a href="http://www.shmap.me/contact.php" class="footer-link">Contact Us</a>
-              <br>
-              <a href="http://terms.shmap.me" class="footer-link">Terms &amp; Privacy Policy</a>
+            <div class="col-md-4">
+              <p class="text-muted footer-links-p">
+                <a href="contact.php" class="footer-link">Contact Us</a>
+                <br>
+                <a href="http://terms.shmap.me" class="footer-link">Terms &amp; Privacy Policy</a>
                 <br>
                 <a href="http://www.ideally.net" target="_blank" class="footer-link">ideally.net</a>
-            </p>
-          </div>
+              </p>
+            </div>
 
         </div>
-        
+
       </footer>
 
     </div> 

@@ -25,9 +25,33 @@
             
   <!-- Chat Bubble -->
             <div class="chatBubble animated bounceIn">
-              <img class="img-responsive lazyload" style="margin:0 auto;" src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" />
-              <h1 class="text-center"><em class="orangeColor">About, Tutorial &amp; FAQ's</em></h1>
-              <h5 class="text-center">Having trouble? Drop us a line: <a href="mailto:help@ideally.net">help[at]ideally.net</a></h5>
+              <img class="img-responsive" style="margin:0 auto; padding-top:20px;" src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" />
+              <h1 class="text-center"><em class="orangeColor scriptFont">About, Tutorial &amp; FAQ's</em></h1>
+              <div class="row">
+                <div class="col-sm-4">
+                  <h3 class="text-center"><a href="#aboutShmap"><strong><u>About Shmap</u></strong></a></h3>
+                  <h3 class="text-center"><a href="#tutorial"><strong><u>Shmap Tutorial</u></strong></a></h3>
+                  <h4 class="text-center"><a href="#signingUp">Signing Up</a></h4>
+                  <h4 class="text-center"><a href="#basics">Shmap Basics</a></h4>
+                  <h4 class="text-center"><a href="#sendingShmaps">Sending Shmaps</a></h4>                  
+                </div>
+                <div class="col-sm-4">
+                  <h3 class="text-center"><a href="#mainSections"><strong><u>Main Sections of Shmap</u></strong></a></h3>
+                  <h4 class="text-center"><a href="#tabs">Intro to Shmap Tabs</a></h4>
+                  <h4 class="text-center"><a href="#messages">Messages Tab</a></h4>
+                  <h4 class="text-center"><a href="#explore">Explore Tab</a></h4>
+                  <h4 class="text-center"><a href="#contacts">Contacts Tab</a></h4>
+                  <h4 class="text-center"><a href="#settings">Settings Tab</a></h4>
+                                
+                </div>
+                <div class="col-sm-4">
+                  <h3 class="text-center"><a href="#FAQs"><strong><u>Frequently Asked Questions</u></strong></a></h3>
+                </div>
+
+
+              </div>
+              <br>
+              <h5 class="text-center">Confused? Having trouble with the app? Drop us a line:<br><a href="mailto:help@ideally.net">help[at]ideally.net</a></h5>
 
               <hr>
 
@@ -38,7 +62,7 @@
               <div id="aboutShmap">
 
                 <div class="aboutLabelDiv">
-                  <h3 class="text-center aboutLabel">About Shmap</h3>
+                  <h3 class="text-center aboutLabel scriptFont">About Shmap</h3>
                 </div>
                 <div class="clear"></div>
 
@@ -120,7 +144,7 @@
   *********************************** -->
 
               <div id="tutorial" class="aboutLabelDiv">
-                <h3 class="text-center aboutLabel">Shmap Tutorial</h3>
+                <h3 class="text-center aboutLabel scriptFont">Shmap Tutorial</h3>
               </div>  
 
   <!-- 1. Begin Signing Up for Shmap -->
@@ -729,7 +753,7 @@ Begin SENDING SHMAPS
 
               <div id="FAQs">
                 <div class="aboutLabelDiv">
-                  <h3 class="text-center aboutLabel">Frequently Asked Questions</h3>
+                  <h3 class="text-center aboutLabel scriptFont">Frequently Asked Questions</h3>
                 </div>
                 <ul class="list-group">
                   <li class="list-group-item">
@@ -761,6 +785,11 @@ Begin SENDING SHMAPS
                     <p class="faqAnswer">A: Not at the moment, but if you want to send us your resume, please go right ahead. As Shmap grows, so will our office! <a href="mailto:info@ideally.net">info [at] ideally.net</a></p>
                   </li>
                 </ul>
+<!-- Begin Attributions -->
+              <div class="attributions text-grey well">
+                <h4>Hand-drawn arrows in the tutorial above were designed by <a class="boldStyle" href="http://www.freepik.com/" style="font-size: 1em;">Freepik</a></h4>
+              </div>
+  <!-- End Attributions -->
               </div>
   <!-- End FAQs -->
 
