@@ -1,3 +1,12 @@
+hr.hrSmall {
+  max-width: 20%;
+}
+
+.scriptFont {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+}
+
 .disabled {
   cursor: default !important;
 }
@@ -9,7 +18,6 @@
   padding-bottom: 5px;
   float: left;
 }
-
 
 /*Orange Color*/
 .orangeColor {
@@ -131,16 +139,27 @@ Main Section Images
 #mainSections:before, 
 #tabs:before, 
 #messages:before, 
+#inboxFilters:before, 
 #explore:before, 
 #contacts:before, 
 #settings:before, 
 #sendingShmaps:before, 
 #personal:before,
-#group:before,
-#shouts:before,
+#groupMessages:before,
 #reminders:before, 
 #tutorial:before, 
-#FAQs:before { 
+#FAQs:before,
+#shouts:before,
+#sendingShouts:before,
+#expiringShouts:before,
+#flaggingShouts:before,
+#blockingUsers:before,
+#unblockingUsers:before,
+#deletingShouts:before,
+#deletingComments:before,
+#personalLocationMessage:before,
+#directPersonalMessage:before,
+#flaggingBlocking:before { 
   display: block; 
   content: " "; 
   margin-top: -60px; 

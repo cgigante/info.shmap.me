@@ -20,60 +20,113 @@
 
         <div class="row">
 
-  <!-- Begin Actual About/Tutorial/FAQs -->
+<!-- ******************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+Begin Intro About/Tutorial/FAQs
+******************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************* -->
           <div class="col-md-12" id="infoCenterDiv">
-            
-  <!-- Chat Bubble -->
+            <!-- Chat Bubble -->
             <div class="chatBubble animated bounceIn">
               <img class="img-responsive" style="margin:0 auto; padding-top:20px;" src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" />
               <h1 class="text-center"><em class="orangeColor scriptFont">About, Tutorial &amp; FAQ's</em></h1>
+              <hr class="hrSmall">
+
+<!-- Begin Table of Contents -->
+              <!-- Begin Row -->
               <div class="row">
                 <div class="col-sm-4">
-                  <h3 class="text-center"><a href="#aboutShmap"><strong><u>About Shmap</u></strong></a></h3>
-                  <h3 class="text-center"><a href="#tutorial"><strong><u>Shmap Tutorial</u></strong></a></h3>
-                  <h4 class="text-center"><a href="#signingUp">Signing Up</a></h4>
-                  <h4 class="text-center"><a href="#basics">Shmap Basics</a></h4>
-                  <h4 class="text-center"><a href="#sendingShmaps">Sending Shmaps</a></h4>                  
-                </div>
-                <div class="col-sm-4">
-                  <h3 class="text-center"><a href="#mainSections"><strong><u>Main Sections of Shmap</u></strong></a></h3>
-                  <h4 class="text-center"><a href="#tabs">Intro to Shmap Tabs</a></h4>
-                  <h4 class="text-center"><a href="#messages">Messages Tab</a></h4>
-                  <h4 class="text-center"><a href="#explore">Explore Tab</a></h4>
-                  <h4 class="text-center"><a href="#contacts">Contacts Tab</a></h4>
-                  <h4 class="text-center"><a href="#settings">Settings Tab</a></h4>
-                                
-                </div>
-                <div class="col-sm-4">
-                  <h3 class="text-center"><a href="#FAQs"><strong><u>Frequently Asked Questions</u></strong></a></h3>
+                  <h4 class="text-center scriptFont"><a href="#aboutShmap"><strong><u>About Shmap</u></strong></a></h4>
+                  <hr class="hrSmall">
+                  <h4 class="text-center scriptFont"><a href="#tutorial"><strong><u>Shmap Tutorial</u></strong></a></h4>
+                  <h5 class="text-center"><a href="#signingUp"><strong class="orangeColor">Signing Up</strong></a></h5>
+                  <h5 class="text-center"><a href="#basics"><strong class="orangeColor">Shmap Basics</strong></a></h5>
+                  <hr class="hrSmall">
+
+                  <h4 class="text-center scriptFont"><a href="#sendingShmaps"><strong><u>Sending Shmaps</u></strong></a></h4>
+                  <h5 class="text-center"><a href="#shouts"><strong class="orangeColor">Shouts</strong></a></h5>
+                  <h6 class="text-center"><a href="#sendingShouts">How to Send a Shout</a></h6>
+                  <h6 class="text-center"><a href="#expiringShouts">Expiring Shouts</a></h6>                  
+                  <h6 class="text-center"><a href="#deletingShouts">Deleting Your Shouts</a></h6>
+                  <h6 class="text-center"><a href="#deletingComments">Deleting Comments on your Shouts</a></h6>
+                  <hr class="hrSmall">
+
                 </div>
 
+                <div class="col-sm-4">
+                  <h5 class="text-center"><a href="#personalLocationMessage"><strong class="orangeColor">Personal Messages</strong></a></h5>
+                  <h6 class="text-center"><a href="#personalLocationMessage">How to send a Personal Location Message</a></h6>
+                  <h6 class="text-center"><a href="#directPersonalMessage">Direct Personal Message</a></h6>
+                  <hr class="hrSmall">
+                  <h5 class="text-center"><a href="#groupMessages"><strong class="orangeColor">Group Messages</strong></a></h5>
+                  <hr class="hrSmall">
+                  
+                  <h5 class="text-center"><a href="#reminders"><strong class="orangeColor">Reminders</strong></a></h5>
+                  <hr class="hrSmall">
+                  <h5 class="text-center"><a href="#flaggingBlocking"><strong class="orangeColor">Flagging &amp; Blocking</strong></a></h5>
+                  <h6 class="text-center"><a href="#flaggingShouts">How to Flag offensive content</a></h6>
+                  <h6 class="text-center"><a href="#blockingUsers">How to Block someone</a></h6>
+                  <h6 class="text-center"><a href="#unblockingUsers">How to Unblock Users</a></h6>
+                  <hr class="hrSmall">
+                </div>
+
+                <div class="col-sm-4">
+                  <h4 class="text-center scriptFont"><a href="#mainSections"><strong><u>Main Sections of Shmap</u></strong></a></h4>
+                  <h5 class="text-center"><a href="#tabs"><strong class="orangeColor">Intro to Shmap Tabs</strong></a></h5>
+                  <h6 class="text-center"><a href="#messages"><strong>Messages Tab</strong></a></h6>
+                  <!-- <h6 style="font-size:.75em;" class="text-center"><a href="#inboxFilters"><em>Message Filters</em></a></h6> -->
+                  <h6 class="text-center"><a href="#explore"><strong>Explore Tab</strong></a></h6>
+                  <h6 class="text-center"><a href="#contacts"><strong>Contacts Tab</strong></a></h6>
+                  <h6 class="text-center"><a href="#settings"><strong>Settings Tab</strong></a></h6>
+                  <hr class="hrSmall">                  
+                  <h4 class="text-center scriptFont"><a href="#FAQs"><strong><u>Frequently Asked Questions</u></strong></a></h4>
+                </div>
+              </div>
+              <!-- End Row -->
+
+              <!-- Begin Row -->
+              <div class="row">
+                <div class="col-sm-4">
+
+                </div>
+
+                <div class="col-sm-4">
+
+                </div>
+
+                <div class="col-sm-4">
+                  
+                </div>
 
               </div>
+              <!-- End Row -->
+<!-- End Table of Contents -->              
+
               <br>
+              
               <h5 class="text-center">Confused? Having trouble with the app? Drop us a line:<br><a href="mailto:help@ideally.net">help[at]ideally.net</a></h5>
 
               <hr>
 
-  <!-- **********************************
-  Begin "About Shmap" section
-  *********************************** -->
-              
+<!-- Begin About Shmap -->
               <div id="aboutShmap">
-
                 <div class="aboutLabelDiv">
                   <h3 class="text-center aboutLabel scriptFont">About Shmap</h3>
                 </div>
                 <div class="clear"></div>
 
+                <!-- Begin Row -->
                 <div class="row">
 
                   <div class="col-md-12">       
                     <!-- About Shmap Logo -->           
                     <img class="img-responsive lazyload" id="shmapLogo" src="img/about/icons/soft_appicon.png">
 
-  <!-- About Shmap Text -->
-                    
+                    <!-- About Shmap Text -->
                     <h4 id="shmapIntro"><span class="boldStyle orangeColor">Shmap</span> is a location-based mobile messaging application <a href="https://appsto.re/us/NM4o7.i" target="_blank">now available on iPhone</a>. 
                     <br><br>
                     <span class="boldStyle orangeColor">Shmap</span> changes the game by transforming ordinary messages into <em>moments</em>.
@@ -87,11 +140,10 @@
                     <br>
                     <br>
                     <a class="boldStyle" href="inapptutorial.php">Click here</a> for the in-app tutorial screens (in case you missed them the first time around.)</h4>
-
                     <div class="clear"></div>
+<!-- End About Shmap -->                    
 
-
-  <!-- Begin Bootstrap Image Gallery lightbox -->
+<!-- Begin Bootstrap Image Gallery lightbox -->
   		              <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;" data-use-bootstrap-modal="false">
   	                  <!-- The container for the modal slides -->
   	                  <div class="slides"></div>
@@ -125,7 +177,7 @@
                         </div>
   	                  </div>
   		              </div>
-                    <!-- end blueimp-gallery controls -->
+<!-- end blueimp-gallery controls -->
   		              
                   </div>
                   <!-- end col-md-12 -->
@@ -135,32 +187,53 @@
 
               </div>
               <!-- end aboutShmap div -->
-              
-  <!-- End "About Shmap" section -->
 
 
-  <!-- **********************************
-  Begin Tutorial
-  *********************************** -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+End Intro About/Tutorial/FAQs ************************************************************************
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+<!-- *************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+Begin Full Tutorial
+******************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************* -->
 
               <div id="tutorial" class="aboutLabelDiv">
                 <h3 class="text-center aboutLabel scriptFont">Shmap Tutorial</h3>
               </div>  
 
-  <!-- 1. Begin Signing Up for Shmap -->
+              <!-- 
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              Begin Signing Up for Shmap
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              -->
               <div class="col-md-12">
-                
                 <ul id="signingUp" class="list-group">
-
                   <li class="list-group-item disabled">
-                    <h4 class="listHeader"><!-- <img src="img/about/icons/profilepic.png" style="max-width:25px;"> --> Signing Up for Shmap</h4>
+                    <h4 class="listHeader scriptFont">Signing Up for Shmap</h4>
                     <p>Before you do anything, you need to register as a Shmap user. This can be done either by using Facebook or registering manually by Email. After you've downloaded the app and read through the app tutorial, you'll be brought to the Sign-up/Log-in Page. From there, you have three options:</p>
                   </li>
 
-
                   <li class="list-group-item">
-                    <p class="listHeader">Sign Up with Email</p>
-                    
+                    <p class="listHeader scriptFont">Sign Up with Email</p>
                     <ul>
                       <li><p>Click "<span class=" orangeColor">Sign Up</span>"</p></li>
                       <li><p>Upload a profile image (optional but recommended)</p></li>
@@ -169,7 +242,6 @@
                       <li><p>Click "Next"</p></li>
                       <li><p>Allow location access</p></li>
                       <li><p>Enter your phone number. This is optional, but highly recommended. This will allow Shmap to add friends in your device's contact book to your Shmap Contacts page without you having to invite them manually. Don't worry, we won't send mass invites to your contacts list. This process only uses your device's contacts to find <em>existing</em> Shmap users.</p></li>
-                      <!-- <li><p>Below are screenshots detailing the Sign Up with Email process</p></li> -->
                     </ul>
 
                     <div id="links2">
@@ -181,15 +253,16 @@
                       </a>
                     </div>
                     <div class="clear"></div>
-
                   </li>
 
                   <li class="list-group-item">
-                    <p class="listHeader">Facebook Sign Up</p>
+                    <p class="listHeader scriptFont">Facebook Sign Up</p>
+                    
+                    <!-- begin row -->
                     <div class="row">
                       <div class="col-md-12">
                         <ul>
-                          <li><p>Click "Facebook Sign Up" to create a Shmap profile using your existing Facebook information.</p></li>
+                          <li><p>Click "<strong>Facebook</strong>" to create a Shmap profile using your existing Facebook information.</p></li>
                           <li><p>Click "Open" to allow Shmap to open Facebook.</p></li>
                           <li><p>Log in with Facebook if you aren't currently logged in.</p></li>
                           <li><p>Allow Facebook to open Shmap.</p></li>
@@ -204,15 +277,14 @@
                           </a>
                         </div>                       
                       </div>
-                    
-                      
                     </div>
+                    <!-- end row -->
                     <div class="clear"></div>
 
                   </li>
 
                   <li class="list-group-item">
-                    <p class="listHeader">Login</p>
+                    <p class="listHeader scriptFont">Login</p>
                     <ul>
                       <li><p>Click "<span class="orangeColor">Login</span>"</p></li>
                       <li><p>Enter your username and password to sign in to an existing Shmap account.</p></li>
@@ -229,21 +301,43 @@
                   </li>
 
                 </ul>
-              </div>     
-  <!-- End Signing Up for Shmap -->
+              </div>
+              <!-- 
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              End Signing Up for Shmap
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              -->
 
 
-  <!-- 2. Begin Shmap Basics -->
+
+
+              <!-- 
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              Begin Shmap Basics
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              -->
               <div class="col-md-12">
                 <ul id="basics" class="list-group">
                   <li class="list-group-item disabled">
-                    <h4 class="listHeader"><img src="img/about/icons/shmap_logo.png" style="max-width:20px;"> Shmap Basics</h4>
+                    <h4 class="listHeader scriptFont"><img src="img/about/icons/shmap_logo.png" style="max-width:20px;"> Shmap Basics</h4>
                     <p>After you've created your account, you're ready to begin Shmapping. Before you do so, it's good to get acquainted with some basic functionality.</p>
                   </li>
 
                   <!-- Begin Shmap Types Defined -->
   								<li class="list-group-item">
-                    <p class="listHeader">Shmap Message Types Defined</p>
+                    <p class="listHeader scriptFont">Shmap Message Types Defined</p>
                     <p>There are several distinct Shmap message types you can send and/or receive in the app. The main message types are listed below. The accompanying icons presented denote these message types in the app.</p>
                     
                     <ul class="ulShmapTypes">
@@ -251,7 +345,7 @@
                       	<p><img src="../img/about/icons/shout.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#shouts">Shouts</a></span> - These messages are publicly-visible location-based messages that can be found in the "<a href="#explore">Explore</a>" tab of the app. If a Shout becomes popular enough, then Shmap users who enter the location it was left at will receive a notification. If you don't want to receive notifications for Shouts that you encounter, simply go to <a href="#settings">app settings</a> and toggle off the "<em>You're near something cool</em>" switch.</p>
                       </li>                    
   					  				<li id="liPersonal">
-                      	<p><img src="../img/about/icons/personal.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#personal">Personal Shmaps</a></span> - These messages are sent privately from you to one or more (i.e. groups) of your Shmap contacts. These Shmaps can be sent directly to your contact or be tied to a geolocation. It's up to you!</p>
+                      	<p><img src="../img/about/icons/personal.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#personalLocationMessage">Personal Shmaps</a></span> - These messages are sent privately from you to one or more (i.e. groups) of your Shmap contacts. These Shmaps can be sent directly to your contact or be tied to a geolocation. It's up to you!</p>
                       </li>
                       
                       <li id="liSponsored">
@@ -261,7 +355,7 @@
                         <p><img src="../img/about/icons/reminder.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;"> <a href="#reminders">Reminders</a></span> - A "Reminder" is a location-based message you send to yourself. On the "New Message" screen, press the Reminder icon, add a location, type your message, and click "send." When you physically enter the location you added, you'll receive your reminder!</p>
                       </li>
                       <li id="liGroup">
-                        <p><span style="font-weight:bold;"> <a href="#group">Group Messages</a></span> - Group messages are simply any message thread which contains more than two people in it. These can be sent with or without a location trigger.</p>
+                        <p><span style="font-weight:bold;"> <a href="#groupMessages">Group Messages</a></span> - Group messages are simply any message thread which contains more than two people in it. These can be sent with or without a location trigger.</p>
                       </li>
                     </ul>
                   </li>
@@ -270,39 +364,50 @@
                 </ul>
 
               </div>
-  <!-- End The Basics -->
+              <!-- 
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              End Shmap Basics
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              -->
 
 
 
 
-<!-- *************************************************************************************************************
-******************************************************************************************************************
-******************************************************************************************************************
-******************************************************************************************************************
-******************************************************************************************************************
-Begin SENDING SHMAPS 
-******************************************************************************************************************
-******************************************************************************************************************
-******************************************************************************************************************
-******************************************************************************************************************
-***************************************************************************************************************-->
+              <!-- 
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              Begin Sending Shmaps
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              -->
 
               <div class="col-md-12">
                 <ul id="sendingShmaps" class="list-group">
                   <li class="list-group-item disabled">
-                    <h4 class="listHeader" id="sendingShmaps">Sending Messages in Shmap</h4>
+                    <h4 class="listHeader scriptFont" id="sendingShmaps">Sending Messages in Shmap</h4>
                     <p>To compose a Shmap message, click the "<span class="boldStyle" style="color: #e69f12;">New</span>" link (found at the top right of the screen in the "Messages" and "Explore" tabs). For details on how to send each variety of Shmap, continue reading below.</p>
                   </li>
 
-<!-- Shouts -->
+<!-- @@@@@@@@ SHOUTS @@@@@@@@ -->
                   <li class="list-group-item">
-
-                    <p id="shouts" class="listHeader">Shouts</p>
-										<p>Shouts are publicly-visible location messages. When you post a Shout, it becomes visible in the Explore feed, where other users can like or comment on it. If your Shout becomes popular enough, then Shmap users who enter the location it was left at will receive a notification!</p>
+                    <p id="shouts" class="listHeader scriptFont">Shouts</p>
+										<p>Shouts are publicly-visible location messages. When you post a Shout, it becomes visible in the Explore feed, where other users can like or comment on it. If your Shout becomes popular enough, then Shmap users who enter the location it was left at will receive a notification! </p>
+                    <p><span class="scriptFont orangeColor">Did you know...</span> You can leave Shouts anywhere in the world! In the "Location" field, simply type the address or place name (e.g. <span class="boldStyle"><em>Empire State Building</em></span> or <span class="boldStyle"><em>The Colosseum</em></span>).</p>
+                    
+                    <hr class="hrSmall">
                     <div class="row">
-
                       <div class="col-md-12">
-                      	<h4 class="boldStyle">Sending Shouts</h4>
+                      	<h4 id="sendingShouts" class="boldStyle scriptFont"><strong>Sending Shouts</strong></h4>
                         <ul>
                           <li><p>Click "<span class="boldStyle orangeColor">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
                           <li><p>Type an address or select a location in the "Location" field.</p></li>
@@ -312,22 +417,46 @@ Begin SENDING SHMAPS
                           <li><p>Click "<span class="boldStyle orangeColor">Send</span>"</p></li>
                         </ul>
 
-                      	<h4 class="boldStyle">Expiring Shouts</h4>
+                        <hr class="hrSmall">
+
+                      	<h4 id="expiringShouts" class="boldStyle scriptFont"><strong>Expiring Shouts</strong></h4>
                         <ul>
                           <li><p>Coming soon...</p></li>
                         </ul>
+                        <!-- Shout Expiration Images: -->
+                        <div id="linksExpiringShouts">
+                          <div class="col-sm-4">
+                            <h5 class="text-center"><strong>Expiring Shouts, Step 1:</strong> Click the "<span class="orangeColor">...</span>" to reveal the Expire options</h5>
+                            <a href="../img/about/expiring/1.PNG" title="Click ... to reveal Expire options" data-gallery>
+                              <img class="img-responsive lazyload" src="../img/about/expiring/1.PNG" alt="Click ... to reveal Expire options" />
+                            </a>
+                          </div>
+                          <div class="col-sm-4">
+                            <h5 class="text-center"><strong>Expiring Shouts, Step 2:</strong> Slide the toggle switch to the right and select from the click-wheel the time to expire</h5>
+                            <a href="../img/about/expiring/2.PNG" title="Select from the click-wheel the time to expire" data-gallery>
+                              <img class="img-responsive lazyload" src="../img/about/expiring/2.PNG" alt="Select from the click-wheel the time to expire" />
+                            </a>
+                          </div>
+                          <div class="col-sm-4">
+                            <h5 class="text-center"><strong>Expiring Shouts, Step 3:</strong> Type your Shout content and send it</h5>
+                            <a href="../img/about/expiring/3.PNG" title="Type your Shout content and send it" data-gallery>
+                              <img class="img-responsive lazyload" src="../img/about/expiring/3.PNG" alt="Type your Shout content and send it" />
+                            </a>
+                          </div>                  
+                        </div>
+                        <div class="clear"></div>                                        
 
-                      	<h4 class="boldStyle">Flagging Shouts</h4>
-                        <ul>
-                          <li><p>Coming soon...</p></li>
-                        </ul>
+                        <hr class="hrSmall">
 
-												<h4 class="boldStyle">Deleting Your Shouts</h4>
+												<h4 id="deletingShouts" class="boldStyle scriptFont"><strong>Deleting Your Shouts</strong></h4>
                         <ul>
                           <li><p>All of the Shouts you send are visible in your Messages inbox. If you choose to delete a Shout, you can simply delete it from your inbox by swiping left on it and clicking the revealed "delete" button.</p></li>
                           <li><p>You may also delete Shouts from your profile. Under your Profile information you will see all of your Shouts. Swipe left on them to reveal a "delete" button. Click this to delete the Shout.</p></li>
                         </ul>
-                        <h4 class="boldStyle">Deleting Comments on your Shouts</h4>
+                        
+                        <hr class="hrSmall">
+
+                        <h4 id="deletingComments" class="boldStyle scriptFont"><strong>Deleting Comments on your Shouts</strong></h4>
                         <h5>Someone left a comment on your Shout you don't like? You can delete it!</h5>
                         <ul>
                           <li><p>Browse to the Shout containing the comments you want to remove. </p></li>
@@ -337,27 +466,20 @@ Begin SENDING SHMAPS
                         </ul> 
                       </div>
 
-											<div>
-												
-											</div>
-
                       <!-- Shout Images: -->
                       <div id="linksShoutImages">
-                      	
-                      		<div class="col-md-6">
-                      			<h4 class="text-center"><strong>Compose your Shout</strong> (click to enlarge)</h4>
-			                      <a href="../img/about/shout_new_msg.png" title="Composing a Shout" data-gallery>
-			                        <img class="img-responsive lazyload" src="../img/about/shout_new_msg.png" alt="Composing a Shout" />
-			                      </a>
-                      		</div>
-													<div class="col-md-6">
-                      			<h4 class="text-center"><strong>Anatomy of a Shout</strong> (click to enlarge)</h4>
-			                      <a href="../img/about/shout_anatomy.png" title="Anatomy of a Shout" data-gallery>
-			                        <img class="img-responsive lazyload" src="../img/about/shout_anatomy.png" alt="Anatomy of a Shout" />
-			                      </a>
-                      		</div>
-                      	
-                      	
+                    		<div class="col-md-6">
+                    			<h4 class="text-center"><strong>Compose your Shout</strong> - <em>click to enlarge</em></h4>
+		                      <a href="../img/about/shout_new_msg.png" title="Composing a Shout" data-gallery>
+		                        <img class="img-responsive lazyload" src="../img/about/shout_new_msg.png" alt="Composing a Shout" />
+		                      </a>
+                    		</div>
+												<div class="col-md-6">
+                    			<h4 class="text-center"><strong>Anatomy of a Shout</strong> - <em>click to enlarge</em></h4>
+		                      <a href="../img/about/shout_anatomy.png" title="Anatomy of a Shout" data-gallery>
+		                        <img class="img-responsive lazyload" src="../img/about/shout_anatomy.png" alt="Anatomy of a Shout" />
+		                      </a>
+                    		</div>
                     	</div>
                     	<div class="clear"></div>
 
@@ -365,9 +487,9 @@ Begin SENDING SHMAPS
 
                   </li>
 
-<!-- Personal Location Message -->
+<!-- @@@@@@@@ PERSONAL LOCATION MESSAGES @@@@@@@@ -->
                   <li class="list-group-item">
-                    <p id="personal" class="listHeader">How to send a Personal Location Message</p>
+                    <p id="personalLocationMessage" class="listHeader scriptFont">How to send a Personal Location Message</p>
                     <p>Personal Location Messages are messages which are tied to a place or address. For example, you could leave your friend a location message at their home address, reminding them to call you when they get home. That friend will receive a notification and your message as soon as they arrive at their house. Here's how you do it:</p>
                     <ul>
                       <li><p>Click "<span class="boldStyle orangeColor">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
@@ -402,10 +524,11 @@ Begin SENDING SHMAPS
                   </li>
 
 
-<!-- direct Personal Message -->
+<!-- @@@@@@@@ DIRECT PERSONAL MESSAGES @@@@@@@@ -->
                   <li class="list-group-item">
-                    <p id="personal" class="listHeader">How to send a direct Personal Message (without a location)</p>
+                    <p id="directPersonalMessage" class="listHeader scriptFont">How to send a direct Personal Message (without a location)</p>
                     <p>Personal messages without a location behave like any other text message. They are sent immediately to your contact and a location is not necessary.</p>
+                    
                     <ul>
                       <li><p>Click "<span class="boldStyle orangeColor">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
                       <li><p>Enter a recipient in the "<span class="boldStyle">To:</span>" field. A recipiant's name can be searched for simply by typing. Or you can click a user's name from the list of your contacts displayed. <br>Note: the recipient <em>must be in your Contacts</em> in order for you to send them a Shmap message.</p></li>
@@ -428,14 +551,16 @@ Begin SENDING SHMAPS
                         </a>
                       </div>
                     </div>
-                    <div class="clear"></div>                    
+                    <div class="clear"></div>
+
                   </li>
                   
 
 
-<!-- Group Messages -->
+<!-- @@@@@@@@ GROUP MESSAGES @@@@@@@@ -->
+
                   <li class="list-group-item">
-                    <p id="group" class="listHeader">Group Messages</p>
+                    <p id="groupMessages" class="listHeader scriptFont">Group Messages</p>
                     <p>Sending Group Messages in Shmap is easy. Follow these basic steps:</p>
                       <div class="row">
                         <div class="col-md-9">
@@ -458,11 +583,10 @@ Begin SENDING SHMAPS
                       </div>
                   </li>
 
+<!-- @@@@@@@@ REMINDERS @@@@@@@@ -->
 
-
-<!-- Reminders -->
                   <li class="list-group-item">
-                    <p id="reminders" class="listHeader">Reminders</p>
+                    <p id="reminders" class="listHeader scriptFont">Reminders</p>
                     <div class="row">
                       <div class="col-md-9">
                         <ul>
@@ -482,22 +606,167 @@ Begin SENDING SHMAPS
                   </li>
                 </ul>
               </div>
+              <div class="clear"></div>
+              <!-- 
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              End Sending Shmaps
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              -->
 
-  <!-- End Sending Shmaps -->
+
+
+              <!-- 
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              Begin Blocking / Flagging
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              -->
+
+
+              <div class="col-md-12">
+                <ul id="flaggingBlocking" class="list-group">
+                  <li class="list-group-item disabled">
+                    <h4 class="listHeader scriptFont">Flagging and Blocking</h4>
+                    <p>In Shmap, it is possible to both Flag offensive content and to block other users. Read below for details.</p>
+                  </li>
+                  <li class="list-group-item">
+                    <h4 id="flaggingShouts" class="boldStyle scriptFont"><strong>Flagging Shouts</strong></h4>
+                    <p>If you ever encounter a Shout that you feel violates our <a href="http://terms.shmap.me/" target="_blank">Terms of Use</a>, please feel free to Flag it. Flagged Shouts will be reviewed by the Shmap team and removed promptly if a violation has occurred. To flag a Shout, follow the steps below:</p>
+                    
+                    <!-- Shout Flagging Images: -->
+                    <div id="linksFlaggingShouts">
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Flagging Shouts, Step 1:</strong> Click the "<span class="orangeColor">...</span>" to reveal the Message options</h5>
+                        <a href="../img/about/flagging/1.PNG" title="Click ... to reveal Message options" data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/flagging/1.PNG" alt="Click ... to reveal Message options" />
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Flagging Shouts, Step 2:</strong><br>Select "Flag"</h5>
+                        <a href="../img/about/flagging/2.PNG" title="Select Flag" data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/flagging/2.PNG" alt="Select Flag" />
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Flagging Shouts, Step 3:</strong> Click either "Nevermind" or "Flag"</h5>
+                        <a href="../img/about/flagging/3.PNG" title="Click either Nevermind or Flag" data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/flagging/3.PNG" alt="Click either Nevermind or Flag" />
+                        </a>
+                      </div>                  
+                    </div>
+                    <div class="clear"></div>
+
+                    <hr class="hrSmall">
+
+                    <h4 id="blockingUsers" class="boldStyle scriptFont"><strong>Blocking Users</strong></h4>
+                    <h5>Is there someone posting Shouts that you don't want to see anymore? You can block them!</h5>
+                    
+                    <!-- Blocking Users Images: -->
+                    <div id="linksBlockingUsers">
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Blocking users, Step 1:</strong> Click the "<span class="orangeColor">...</span>" at the top right of a Shout to reveal the Message options</h5>
+                        <a href="../img/about/blocking/1.PNG" title="Click ... to reveal Message options" data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/blocking/1.PNG" alt="Click ... to reveal Message options" />
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Blocking users, Step 2:</strong> Select "Block user" from the button options</h5>
+                        <br>
+                        <a href="../img/about/blocking/2.PNG" title="Select from the click-wheel the time to expire" data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/blocking/2.PNG" alt="Select from the click-wheel the time to expire" />
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Blocking users, Step 3:</strong> Click OK</h5>
+                        <br>
+                        <a href="../img/about/blocking/3.PNG" title="Click OK" data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/blocking/3.PNG" alt="Click OK" />
+                        </a>
+                      </div>                  
+                    </div>
+                    <div class="clear"></div>
+                    
+                    <hr class="hrSmall">
+
+                    <!-- Unblocking Users - Settings -->
+                    <h4 id="unblockingUsers" class="boldStyle scriptFont"><strong>Unblocking Users</strong></h4>
+                    <ul>
+                      <li><p>Want to <strong>Unblock</strong> someone? Browse to the Settings tab and follow the below steps:</p></li>
+                    </ul>
+                    <!-- Unblocking Users Images: -->
+                    <div id="linksBlockingUsers2">
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Unblocking users, Step 1:</strong> Browse to "Settings" and then click "Blocked Users and Sponsors" at the bottom of the page.</h5>
+                        <a href="../img/about/blocking/4.PNG" title="Browse to Settings and then click Blocked Users and Sponsors at the bottom of the page." data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/blocking/4.PNG" alt="Browse to Settings and then click Blocked Users and Sponsors at the bottom of the page." />
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Unblocking users, Step 2:</strong> This is a list of all the Shmap users you have blocked. Click the "<span class="orangeColor">...</span>" next to a user's name to reveal option to unblock the user.</h5>
+                        <br>
+                        <a href="../img/about/blocking/5.PNG" title="This is a list of all the Shmap users you have blocked. Click the ... next to a user's name to reveal option to unblock the user." data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/blocking/5.PNG" alt="This is a list of all the Shmap users you have blocked. Click the ... next to a user's name to reveal option to unblock the user." />
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5 class="text-center"><strong>Unblocking users, Step 3:</strong> Click "Unblock"</h5>
+                        <a href="../img/about/blocking/6.PNG" title="Click Unblock" data-gallery>
+                          <img class="img-responsive lazyload" src="../img/about/blocking/6.PNG" alt="Click Unblock" />
+                        </a>                          
+                      </div>
+                    </div>
+                    <div class="clear"></div>     
+                  </li>
+                </ul>
+              </div>
+              <!-- 
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              End Blocking / Flagging
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              -->
 
 
 
-  <!-- 4. Begin App Sections -->
+
+
+              <!-- 
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              Begin App Sections
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              -->
               <div class="col-md-12">
                 <ul id="mainSections" class="list-group">
                   <li class="list-group-item disabled">
-                    <h4 class="listHeader"><img src="img/about/icons/settings.png" style="max-width:20px;"> Main Sections of Shmap</h4>
+                    <h4 class="listHeader scriptFont"><img src="img/about/icons/settings.png" style="max-width:20px;"> Main Sections of Shmap</h4>
                     <p>This section provides details on each of the main Tabs in Shmap.</p>
                   </li>
 
                   <!-- Begin Tabs -->
                   <li class="list-group-item">
-                    <p id="tabs" class="listHeader">Intro to the Shmap Tabs</p>
+                    <p id="tabs" class="listHeader scriptFont">Intro to the Shmap Tabs</p>
                     <p>There are four tabs in Shmap. Below is a brief introduction to them.</p>
                     <ul>
                       <li>
@@ -521,7 +790,7 @@ Begin SENDING SHMAPS
 
                   <!-- Begin Messages Tab -->
                   <li class="list-group-item">
-                    <p id="messages" class="listHeader">Messages Tab</p>
+                    <p id="messages" class="listHeader scriptFont">Messages Tab</p>
                       <ul>
                         <li><p><span class="boldStyle">Sending New Messages</span>: Click "<span class="boldStyle" style="color: #e69f12;">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>. </p></li>
 
@@ -545,9 +814,11 @@ Begin SENDING SHMAPS
                         
                         <li><p><span class="boldStyle">Deleting Message Threads</span>: To delete threads from your inbox, simply swipe left on any message from your inbox view. This will reveal a red <span class="boldStyle" style="color:red">delete</span> button. Click this to permanently delete the entire thread.</p></li>
                       </ul>
-                    <br>
-                    
-                    <p class="listHeader">Inbox Filters for Messages</p>
+                  </li>
+                  
+                  <!-- End Messages Tab -->                    
+                  <li class="list-group-item">
+                    <p id="inboxFilters" class="listHeader scriptFont">Inbox Filters for Messages</p>
                     <p>There are four filters in the inbox. Click the header text (which should default to "All messages") to produce a list of the filters for you to select from. As you select a filter, the text in the header will change and your inbox messages will display only the corresponding message types.</p>
                     <ul>
                       <li>
@@ -569,7 +840,7 @@ Begin SENDING SHMAPS
 
                   <!-- Begin Explore Tab -->
                   <li class="list-group-item">
-                    <p id="explore" class="listHeader">Explore Tab</p>
+                    <p id="explore" class="listHeader scriptFont">Explore Tab</p>
                       <div class="row">
                         <div class="col-md-12">
                           <p><span class="boldStyle">Overview</span>: Simply put, the <em>Explore</em> feed is your view into all of the Shouts around you! The Shouts closest to your current location will appear near the top. As you scroll down, the radius widens, giving you a look at Shouts further and further away. Think of Explore much like your Twitter or Instagram feeds. This is where you explore the Shmap universe.</p>
@@ -591,7 +862,7 @@ Begin SENDING SHMAPS
 
                   <!-- Begin Contacts Tab -->
                   <li class="list-group-item">
-                    <p id="contacts" class="listHeader">Contacts Tab</p>
+                    <p id="contacts" class="listHeader scriptFont">Contacts Tab</p>
                     <div class="row">
                       <div class="col-md-9">
                         <p>The "Contacts" tab is where all of your Shmap contacts are collected. It is also here where you can invite other Shmap users to be contacts with you or even send invites to your iPhone contacts so that they can download Shmap.</p>
@@ -683,7 +954,7 @@ Begin SENDING SHMAPS
 
                   <!-- Begin Settings Tab -->
                   <li class="list-group-item">
-                    <p id="settings" class="listHeader">Settings Tab</p>
+                    <p id="settings" class="listHeader scriptFont">Settings Tab</p>
                     <div class="row">
                       <div class="col-md-9">
                         <p>The "Settings" tab includes links to the following:</p>
@@ -736,20 +1007,45 @@ Begin SENDING SHMAPS
                 </ul>
               </div>
 
-  <!-- End App Sections -->
+              <!-- 
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              End App Sections
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              -->
 
 
-  <!-- End Tutorial  -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+End full Tutorial ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
 
               <hr><!-- break between main sections -->
 
               <div class="clear"></div>
-
-  <!-- 
-  **********************************
-  Begin FAQs
-  ********************************** 
-  -->
+  
+              <!-- 
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              Begin FAQs
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              -->
 
               <div id="FAQs">
                 <div class="aboutLabelDiv">
@@ -757,31 +1053,31 @@ Begin SENDING SHMAPS
                 </div>
                 <ul class="list-group">
                   <li class="list-group-item">
-                    <p class="faqQuestion listHeader">Q: How do I send a Shmap?</p>
+                    <p class="faqQuestion listHeader scriptFont">Q: How do I send a Shmap?</p>
                     <p class="faqAnswer">A: <a href="#sendingShmaps">Here you go!</a></p>
                   </li>
                   <li class="list-group-item">
-                    <p class="faqQuestion listHeader">Q: Hey, why do you want my phone number?</p>
+                    <p class="faqQuestion listHeader scriptFont">Q: Hey, why do you want my phone number?</p>
                     <p class="faqAnswer">A: We give you the option to add your phone number, because this will allow Shmap to match you with your existing contacts from your phone and automatically add them to your Shmap contacts.</p>
                   </li>                  
                   <li class="list-group-item">
-                    <p class="faqQuestion listHeader">Q: How do I delete my account?</p>
+                    <p class="faqQuestion listHeader scriptFont">Q: How do I delete my account?</p>
                     <p class="faqAnswer">A: Click on the "Settings" tab. Click your name or photo in the "My Profile" section (it's the first link at the top of the page). At the top right of your profile there is an "<span class="orangeColor">edit</span>" link. Click this. On your Edit Profile screen, you will see a red "Remove Profile" link. Click this and then confirm that you want to delete your profile. Note that if you delete your profile, all of your messages and contacts will be permanently gone.</p>
                   </li>
                   <li class="list-group-item">
-                    <p class="faqQuestion listHeader">Q: How do I change my password?</p>
+                    <p class="faqQuestion listHeader scriptFont">Q: How do I change my password?</p>
                     <p class="faqAnswer">A: Click on the "Settings" tab. Click into your Profile. Click "<span class="orangeColor">edit</span>". Then click on "Change Password" and follow the instructions from there.</p>
                   </li>                  
                   <li class="list-group-item">
-                    <p class="faqQuestion listHeader">Q: I have an idea that will make Shmap even Shmappier. Who can I tell?</p>
+                    <p class="faqQuestion listHeader scriptFont">Q: I have an idea that will make Shmap even Shmappier. Who can I tell?</p>
                     <p class="faqAnswer">A: We'd love your feedback. Drop us a note here: <a href="mailto:info@ideally.net">info [at] ideally.net</a></p>
                   </li>
                   <li class="list-group-item">
-                    <p class="faqQuestion listHeader">Q: What's a "Shout" and why should I care?</p>
+                    <p class="faqQuestion listHeader scriptFont">Q: What's a "Shout" and why should I care?</p>
                     <p class="faqAnswer">A: Shouts are publicly-visible location-based messages that can be found in the "Explore" tab of the app. If you happen to enter the vicinity where a Shout was left, then you will receive a notification and the Shout will appear in your Messages inbox. You can read about sending Shouts <a href="#shouts">here</a>. Why should you care? Well, Shouts are really the best way to interact and connect with other Shmap users!</p>
                   </li>
                   <li class="list-group-item">
-                    <p class="faqQuestion listHeader">Q: Do you have any jobs?</p>
+                    <p class="faqQuestion listHeader scriptFont">Q: Do you have any jobs?</p>
                     <p class="faqAnswer">A: Not at the moment, but if you want to send us your resume, please go right ahead. As Shmap grows, so will our office! <a href="mailto:info@ideally.net">info [at] ideally.net</a></p>
                   </li>
                 </ul>
@@ -791,21 +1087,39 @@ Begin SENDING SHMAPS
               </div>
   <!-- End Attributions -->
               </div>
-  <!-- End FAQs -->
+
+              <!-- 
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              End FAQs
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              //////////////////////////////////////////////////////////////////////////////////////////
+              -->
 
             </div><!-- end Big Chat Bubble -->
 
           </div><!-- end main content -->
             
-        </div><!-- /.row -->
+        </div><!-- End Main Row -->
         
-      </div><!-- /.container -->
+      </div><!-- End Container -->
       <div class="clear"></div>
 
-
-  <!-- **********************************
-  Begin Footer
-  *********************************** -->
+      <!-- 
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      Begin Footer
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      -->
       <footer>
         <div class="container">
             <div class="col-md-4 animated fadeIn">
@@ -837,6 +1151,18 @@ Begin SENDING SHMAPS
         </div>
 
       </footer>
+
+      <!-- 
+      //////////////////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////////////////
+      End Footer
+      //////////////////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////////////////
+      -->
 
     </div> 
     <!-- end WRAP -->
