@@ -31,7 +31,6 @@ hr.hrSmall {
 
 
 /*in-app tutorial:*/
-
 #links {
   margin-left: 12px;
 }
@@ -46,15 +45,18 @@ div > a > img.thumbnailPhotoSmall {
 }
 
 
-
-
 /********************* 
 Main Section Images 
 *********************/
 
+#tabs-img {
+  max-width: 75%;
+  border: 1px solid #e69f12;
+  margin: 0 auto;
+}
+
 .photoLabelContainer {
   float: left;
-  /*width: 45%;*/
 }
 
   .photoLabelContainerPhoto {
@@ -117,18 +119,20 @@ Main Section Images
 }
 
 .aboutLabel {
-  background-color: #55647e;
-  color: white; 
+  font-size: 3.5em;
+  /*color: white;*/
+  text-decoration: underline;
   padding: 10px 0;
+  /*background-color: #55647e;
   border-radius: 25px;
-  border: 2px solid #3498db;
+  border: 2px solid #3498db;*/
 }
 
 
 .listHeader {
   /*text-decoration: underline;*/
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 /* This pushes down the web development section anchor so it isn't obscured under the nav bar */

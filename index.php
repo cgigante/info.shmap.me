@@ -5,19 +5,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <?php include_once("_head.php") ?>
-
+  <head>
+    <?php include_once("_head.php") ?>
+    <!-- Google Analytics tracking code -->
+    <?php include_once("analyticstracking.php") ?>    
+  </head>
   <body>
 
-  <!-- Google Analytics tracking code -->
-  <?php include_once("analyticstracking.php") ?>
+
   <?php include_once("navigation.html") ?>
 
   <!-- Page Content -->
     <div class="wrap">
-
       <div class="container" id="infoPage">
-
         <div class="row">
 
 <!-- ******************************************************************************************************
@@ -29,7 +29,8 @@ Begin Intro About/Tutorial/FAQs
 ******************************************************************************************************
 ******************************************************************************************************
 ******************************************************************************************************* -->
-          <div class="col-md-12" id="infoCenterDiv">
+
+          <div class="col-sm-12" id="infoCenterDiv">
             <!-- Chat Bubble -->
             <div class="chatBubble animated bounceIn">
               <img class="img-responsive" style="margin:0 auto; padding-top:20px;" src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" />
@@ -88,31 +89,19 @@ Begin Intro About/Tutorial/FAQs
               </div>
               <!-- End Row -->
 
-              <!-- Begin Row -->
-              <div class="row">
-                <div class="col-sm-4">
-
-                </div>
-
-                <div class="col-sm-4">
-
-                </div>
-
-                <div class="col-sm-4">
-                  
-                </div>
-
-              </div>
-              <!-- End Row -->
 <!-- End Table of Contents -->              
 
               <br>
-              
-              <h5 class="text-center">Confused? Having trouble with the app? Drop us a line:<br><a href="mailto:help@ideally.net">help[at]ideally.net</a></h5>
+              <h5 class="text-center">
+              	Confused? Having trouble with the app? Drop us a line:
+              	<br>
+              	<a href="mailto:help@ideally.net">help[at]ideally.net</a>
+              </h5>
 
               <hr>
 
-<!-- Begin About Shmap -->
+
+<!-- Begin "About Shmap" -->
               <div id="aboutShmap">
                 <div class="aboutLabelDiv">
                   <h3 class="text-center aboutLabel scriptFont">About Shmap</h3>
@@ -122,26 +111,30 @@ Begin Intro About/Tutorial/FAQs
                 <!-- Begin Row -->
                 <div class="row">
 
-                  <div class="col-md-12">       
+                  <div class="col-sm-12">       
                     <!-- About Shmap Logo -->           
-                    <img class="img-responsive lazyload" id="shmapLogo" src="img/about/icons/soft_appicon.png">
+                    <img class="img-responsive" id="shmapLogo" src="img/about/icons/soft_appicon.png">
 
                     <!-- About Shmap Text -->
-                    <h4 id="shmapIntro"><span class="boldStyle orangeColor">Shmap</span> is a location-based mobile messaging application <a href="https://appsto.re/us/NM4o7.i" target="_blank">now available on iPhone</a>. 
-                    <br><br>
-                    <span class="boldStyle orangeColor">Shmap</span> changes the game by transforming ordinary messages into <em>moments</em>.
-                    Its magic comes from messages that are delivered – either privately, to groups or to the general public – only when the recipients enter a location associated with the message. Connecting digital conversations with <em>PLACE</em> changes the game  by enabling a new way of communicating.<br><br>
-                    <span class="boldStyle orangeColor">Shmap</span> allows you to leave a message for your friend when she walks into the coffee shop, reminding her you bought last time and she owes you one!<br><br>
-                    <span class="boldStyle orangeColor">Shmap</span> reminds your pal to take it easy this time as he enters bar that he got blotto in during your last wild night out.<br><br>
-                    <span class="boldStyle orangeColor">Shmap</span> makes you the sweetest guy in the world when your lady receives a note the moment she gets home.<br><br>
-                    <span class="boldStyle orangeColor">Shmap</span> tells your friend  to make sure not to forget the guac this time when picking up the Chipotle order.
-                    <br><br>
-                    Below is an <a class="boldStyle" href="#tutorial">app tutorial</a> which details the application's main functionality. For answers to our frequently asked questions, please <a href="#FAQs" class="boldStyle">scroll down to the FAQs</a>. 
-                    <br>
-                    <br>
-                    <a class="boldStyle" href="inapptutorial.php">Click here</a> for the in-app tutorial screens (in case you missed them the first time around.)</h4>
+                    <h4 id="shmapIntro">
+                      <span class="boldStyle orangeColor">Shmap</span> is a location-based mobile messaging application <a href="https://appsto.re/us/NM4o7.i" target="_blank">now available on iPhone</a>.
+                      <br><br>
+                      <span class="boldStyle orangeColor">Shmap</span> changes the game by transforming ordinary messages into <em>moments</em>.
+                      Its magic comes from messages that are delivered – either privately, to groups or to the general public – only when the recipients enter a location associated with the message. Connecting digital conversations with <em>PLACE</em> changes the game  by enabling a new way of communicating.<br><br>
+                      <span class="boldStyle orangeColor">Shmap</span> allows you to leave a message for your friend when she walks into the coffee shop, reminding her you bought last time and she owes you one!<br><br>
+                      <span class="boldStyle orangeColor">Shmap</span> reminds your pal to take it easy this time as he enters bar that he got blotto in during your last wild night out.<br><br>
+                      <span class="boldStyle orangeColor">Shmap</span> makes you the sweetest guy in the world when your lady receives a note the moment she gets home.<br><br>
+                      <span class="boldStyle orangeColor">Shmap</span> tells your friend  to make sure not to forget the guac this time when picking up the Chipotle order.
+                      <br><br>
+                      Below is an <a class="boldStyle" href="#tutorial">app tutorial</a> which details the application's main functionality. For answers to our frequently asked questions, please <a href="#FAQs" class="boldStyle">scroll down to the FAQs</a>. 
+                      <br>
+                      <br>
+                      <a class="boldStyle" href="inapptutorial.php">Click here</a> for the in-app tutorial screens (in case you missed them the first time around.)
+                    </h4>
+                    <!-- End h4 ShmapIntro -->
                     <div class="clear"></div>
 <!-- End About Shmap -->                    
+
 
 <!-- Begin Bootstrap Image Gallery lightbox -->
   		              <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;" data-use-bootstrap-modal="false">
@@ -178,13 +171,10 @@ Begin Intro About/Tutorial/FAQs
   	                  </div>
   		              </div>
 <!-- end blueimp-gallery controls -->
-  		              
                   </div>
-                  <!-- end col-md-12 -->
-
+                  <!-- end col-sm-12 -->
                 </div>
                 <!-- end row -->
-
               </div>
               <!-- end aboutShmap div -->
 
@@ -197,8 +187,9 @@ End Intro About/Tutorial/FAQs **************************************************
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
+							<hr>
 
 <!-- *************************************************************************************************
 ******************************************************************************************************
@@ -208,7 +199,7 @@ Begin Full Tutorial
 ******************************************************************************************************
 ******************************************************************************************************
 ******************************************************************************************************
-******************************************************************************************************* -->
+************************************************************************************************** -->
 
               <div id="tutorial" class="aboutLabelDiv">
                 <h3 class="text-center aboutLabel scriptFont">Shmap Tutorial</h3>
@@ -225,7 +216,7 @@ Begin Full Tutorial
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               -->
-              <div class="col-md-12">
+              <div class="col-sm-12">
                 <ul id="signingUp" class="list-group">
                   <li class="list-group-item disabled">
                     <h4 class="listHeader scriptFont">Signing Up for Shmap</h4>
@@ -246,10 +237,10 @@ Begin Full Tutorial
 
                     <div id="links2">
                       <a href="../img/about/1-registration.png" title="Sign-up/Log-in Page" data-gallery>
-                        <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/1-registration.png" alt="Sign-up/Log-in Page" />
+                        <img class="img-responsive thumbnailPhotoSmall" src="../img/about/1-registration.png" alt="Sign-up/Log-in Page" />
                       </a> 
                       <a href="../img/about/4-registration.png" title="Register By Email - Sign Up Form" data-gallery>
-                        <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/4-registration.png" alt="Register By Email - Sign Up Form" />
+                        <img class="img-responsive thumbnailPhotoSmall" src="../img/about/4-registration.png" alt="Register By Email - Sign Up Form" />
                       </a>
                     </div>
                     <div class="clear"></div>
@@ -260,7 +251,7 @@ Begin Full Tutorial
                     
                     <!-- begin row -->
                     <div class="row">
-                      <div class="col-md-12">
+                      <div class="col-sm-12">
                         <ul>
                           <li><p>Click "<strong>Facebook</strong>" to create a Shmap profile using your existing Facebook information.</p></li>
                           <li><p>Click "Open" to allow Shmap to open Facebook.</p></li>
@@ -270,10 +261,10 @@ Begin Full Tutorial
                         </ul> 
                         <div id="links22">
                           <a href="../img/about/1-registration.png" title="Sign-up/Log-in Page" data-gallery>
-                            <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/1-registration.png" alt="Sign-up/Log-in Page" />
+                            <img class="img-responsive thumbnailPhotoSmall" src="../img/about/1-registration.png" alt="Sign-up/Log-in Page" />
                           </a>                         
                           <a href="../img/about/3-registration.png" title="Register By Facebook" data-gallery>
-                            <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/3-registration.png" alt="Register By Facebook" />
+                            <img class="img-responsive thumbnailPhotoSmall" src="../img/about/3-registration.png" alt="Register By Facebook" />
                           </a>
                         </div>                       
                       </div>
@@ -291,17 +282,17 @@ Begin Full Tutorial
                     </ul>
                     <div id="links23">
                       <a href="../img/about/1-registration.png" title="Sign-up/Log-in Page" data-gallery>
-                        <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/1-registration.png" alt="Sign-up/Log-in Page" />
+                        <img class="img-responsive thumbnailPhotoSmall" src="../img/about/1-registration.png" alt="Sign-up/Log-in Page" />
                       </a>                     
                       <a href="../img/about/2-registration.png" title="Login with Email" data-gallery>
-                        <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/2-registration.png" alt="Login with Email" />
+                        <img class="img-responsive thumbnailPhotoSmall" src="../img/about/2-registration.png" alt="Login with Email" />
                       </a>
                     </div>
                     <div class="clear"></div>
                   </li>
-
                 </ul>
               </div>
+              
               <!-- 
               //////////////////////////////////////////////////////////////////////////////////////////
               //////////////////////////////////////////////////////////////////////////////////////////
@@ -315,8 +306,6 @@ Begin Full Tutorial
               -->
 
 
-
-
               <!-- 
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -328,7 +317,7 @@ Begin Full Tutorial
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               -->
-              <div class="col-md-12">
+              <div class="col-sm-12">
                 <ul id="basics" class="list-group">
                   <li class="list-group-item disabled">
                     <h4 class="listHeader scriptFont"><img src="img/about/icons/shmap_logo.png" style="max-width:20px;"> Shmap Basics</h4>
@@ -376,9 +365,6 @@ Begin Full Tutorial
               //////////////////////////////////////////////////////////////////////////////////////////
               -->
 
-
-
-
               <!-- 
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -391,7 +377,7 @@ Begin Full Tutorial
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               -->
 
-              <div class="col-md-12">
+              <div class="col-sm-12">
                 <ul id="sendingShmaps" class="list-group">
                   <li class="list-group-item disabled">
                     <h4 class="listHeader scriptFont" id="sendingShmaps">Sending Messages in Shmap</h4>
@@ -406,7 +392,7 @@ Begin Full Tutorial
                     
                     <hr class="hrSmall">
                     <div class="row">
-                      <div class="col-md-12">
+                      <div class="col-sm-12">
                       	<h4 id="sendingShouts" class="boldStyle scriptFont"><strong>Sending Shouts</strong></h4>
                         <ul>
                           <li><p>Click "<span class="boldStyle orangeColor">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
@@ -420,27 +406,38 @@ Begin Full Tutorial
                         <hr class="hrSmall">
 
                       	<h4 id="expiringShouts" class="boldStyle scriptFont"><strong>Expiring Shouts</strong></h4>
-                        <ul>
-                          <li><p>Coming soon...</p></li>
-                        </ul>
+                        <p>Sometimes you'll create a Shout that is only relevant for a specific time period. For example, a Shout left at a concert or a sporting event will only be relevant to other Shmap users for a few hours or days. So to automatically remove your Shout from the Explore feed at a certain time, you can set it to Expire. Follow these steps:</p>
+                        
                         <!-- Shout Expiration Images: -->
                         <div id="linksExpiringShouts">
                           <div class="col-sm-4">
-                            <h5 class="text-center"><strong>Expiring Shouts, Step 1:</strong> Click the "<span class="orangeColor">...</span>" to reveal the Expire options</h5>
+                            <h5 class="text-center">
+                              <strong>Expiring Shouts, Step 1:</strong>
+                              <br>
+                              Click the "<span class="orangeColor">...</span>" to reveal the Expire options
+                            </h5>
                             <a href="../img/about/expiring/1.PNG" title="Click ... to reveal Expire options" data-gallery>
-                              <img class="img-responsive lazyload" src="../img/about/expiring/1.PNG" alt="Click ... to reveal Expire options" />
+                              <img class="img-responsive" src="../img/about/expiring/1.PNG" alt="Click ... to reveal Expire options" />
                             </a>
                           </div>
                           <div class="col-sm-4">
-                            <h5 class="text-center"><strong>Expiring Shouts, Step 2:</strong> Slide the toggle switch to the right and select from the click-wheel the time to expire</h5>
+                            <h5 class="text-center">
+                              <strong>Expiring Shouts, Step 2:</strong>
+                              <br>
+                              Slide the toggle switch to the right and select the expiration time. Click Done.
+                            </h5>
                             <a href="../img/about/expiring/2.PNG" title="Select from the click-wheel the time to expire" data-gallery>
-                              <img class="img-responsive lazyload" src="../img/about/expiring/2.PNG" alt="Select from the click-wheel the time to expire" />
+                              <img class="img-responsive" src="../img/about/expiring/2.PNG" alt="Select from the click-wheel the time to expire" />
                             </a>
                           </div>
                           <div class="col-sm-4">
-                            <h5 class="text-center"><strong>Expiring Shouts, Step 3:</strong> Type your Shout content and send it</h5>
+                            <h5 class="text-center">
+                              <strong>Expiring Shouts, Step 3:</strong>
+                              <br>
+                              Type your Shout content and send it!
+                            </h5>
                             <a href="../img/about/expiring/3.PNG" title="Type your Shout content and send it" data-gallery>
-                              <img class="img-responsive lazyload" src="../img/about/expiring/3.PNG" alt="Type your Shout content and send it" />
+                              <img class="img-responsive" src="../img/about/expiring/3.PNG" alt="Type your Shout content and send it" />
                             </a>
                           </div>                  
                         </div>
@@ -468,16 +465,16 @@ Begin Full Tutorial
 
                       <!-- Shout Images: -->
                       <div id="linksShoutImages">
-                    		<div class="col-md-6">
+                    		<div class="col-sm-6">
                     			<h4 class="text-center"><strong>Compose your Shout</strong> - <em>click to enlarge</em></h4>
 		                      <a href="../img/about/shout_new_msg.png" title="Composing a Shout" data-gallery>
-		                        <img class="img-responsive lazyload" src="../img/about/shout_new_msg.png" alt="Composing a Shout" />
+		                        <img class="img-responsive" src="../img/about/shout_new_msg.png" alt="Composing a Shout" />
 		                      </a>
                     		</div>
-												<div class="col-md-6">
+												<div class="col-sm-6">
                     			<h4 class="text-center"><strong>Anatomy of a Shout</strong> - <em>click to enlarge</em></h4>
 		                      <a href="../img/about/shout_anatomy.png" title="Anatomy of a Shout" data-gallery>
-		                        <img class="img-responsive lazyload" src="../img/about/shout_anatomy.png" alt="Anatomy of a Shout" />
+		                        <img class="img-responsive" src="../img/about/shout_anatomy.png" alt="Anatomy of a Shout" />
 		                      </a>
                     		</div>
                     	</div>
@@ -508,15 +505,15 @@ Begin Full Tutorial
                     <h4 class="text-center">click to enlarge:</h4>
                     
                     <div id="linksPersonalLocationMessages">
-                      <div class="col-md-6">
+                      <div class="col-sm-6">
                         <a href="../img/about/personal/3personal-yesLocation.jpg" title="Personal Message - Composing With a Location" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/personal/3personal-yesLocation.jpg" alt="Personal Message - Composing Without Location" />
+                          <img class="img-responsive" src="../img/about/personal/3personal-yesLocation.jpg" alt="Personal Message - Composing Without Location" />
                         </a>
                       </div>
 
-                      <div class="col-md-6">
+                      <div class="col-sm-6">
                         <a href="../img/about/personal/4personal-yesLocation.jpg" title="Personal Message - Sent With a Location" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/personal/4personal-yesLocation.jpg" alt="Personal Message - Sent Without Location" />
+                          <img class="img-responsive" src="../img/about/personal/4personal-yesLocation.jpg" alt="Personal Message - Sent Without Location" />
                         </a>
                       </div>
                     </div>
@@ -539,17 +536,19 @@ Begin Full Tutorial
                     
                     <h4 class="text-center">click to enlarge:</h4>
                     <div id="linksPersonalMessages">
-                      <div class="col-md-6">                      
+                      
+                      <div class="col-sm-6">                      
                         <a href="../img/about/personal/1personal-noLocation.jpg" title="Personal Message - Composing Without Location" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/personal/1personal-noLocation.jpg" alt="Personal Message - Composing Without Location" />
+                          <img class="img-responsive" src="../img/about/personal/1personal-noLocation.jpg" alt="Personal Message - Composing Without Location" />
                         </a>
                       </div>
 
-                      <div class="col-md-6">                      
+                      <div class="col-sm-6">                      
                         <a href="../img/about/personal/2personal-noLocation.jpg" title="Personal Message - Sent Without Location" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/personal/2personal-noLocation.jpg" alt="Personal Message - Sent Without Location" />
+                          <img class="img-responsive" src="../img/about/personal/2personal-noLocation.jpg" alt="Personal Message - Sent Without Location" />
                         </a>
                       </div>
+
                     </div>
                     <div class="clear"></div>
 
@@ -563,7 +562,7 @@ Begin Full Tutorial
                     <p id="groupMessages" class="listHeader scriptFont">Group Messages</p>
                     <p>Sending Group Messages in Shmap is easy. Follow these basic steps:</p>
                       <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-sm-9">
                           <ul>
                             <li><p>Click "<span class="boldStyle orangeColor">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
                             <li><p>Optional: Add a "Location." (If you choose a Location, then the message will only be delivered to the recipients who actually enter the location's physical proximity.)</p></li>
@@ -576,9 +575,14 @@ Begin Full Tutorial
                         </div>
 
                         <!-- Screenshot on right -->
-                        <div class="col-md-3">
-                          <a href="../img/about/group.png" target="_blank"><img class="img-responsive lazyload thumbnailPhotoMain thumbnail" src="../img/about/group.png" alt="Group Message" /></a>
+                        <div id="linksReminderImage" class="col-sm-3">
+                          <a href="../img/about/group.png" title="Composing a Group Message" data-gallery>
+                            <img class="img-responsive thumbnailPhotoMain" src="../img/about/group.png" alt="Composing a Group Message" />
+                          </a>
                         </div>
+                        <div class="clear"></div>                        
+
+
 
                       </div>
                   </li>
@@ -588,7 +592,7 @@ Begin Full Tutorial
                   <li class="list-group-item">
                     <p id="reminders" class="listHeader scriptFont">Reminders</p>
                     <div class="row">
-                      <div class="col-md-9">
+                      <div class="col-sm-9">
                         <ul>
                           <li><p>Click "<span class="boldStyle orangeColor">New</span>" to open the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>. Click the <img src="../img/about/icons/reminder.png" style="max-width:25px;">&nbsp;<span style="font-weight:bold;">"Remind Me"</span> icon, which populates "Me" in the "To" field.</p></li>
                           <li><p>Type an address or select a location in the "Location" field.</p></li>
@@ -599,11 +603,17 @@ Begin Full Tutorial
                       </div>
 
                       <!-- Screenshot on right -->
-                      <div class="col-md-3">
-                        <a href="../img/about/reminder.png" target="_blank"><img class="img-responsive lazyload thumbnailPhotoMain thumbnail" src="../img/about/reminder.png" alt="Reminder Message" /></a>
+                      <div id="linksReminderImage" class="col-sm-3">
+                        <a href="../img/about/reminder.png" title="New Reminder screen" data-gallery>
+                          <img class="img-responsive thumbnailPhotoMain" src="../img/about/reminder.png" alt="New Reminder screen" />
+                        </a>
                       </div>
+                      <div class="clear"></div>
+
                     </div>
+                    <!-- End Row -->
                   </li>
+                  <!-- End list-group-item -->
                 </ul>
               </div>
               <div class="clear"></div>
@@ -634,7 +644,7 @@ Begin Full Tutorial
               -->
 
 
-              <div class="col-md-12">
+              <div class="col-sm-12">
                 <ul id="flaggingBlocking" class="list-group">
                   <li class="list-group-item disabled">
                     <h4 class="listHeader scriptFont">Flagging and Blocking</h4>
@@ -647,21 +657,33 @@ Begin Full Tutorial
                     <!-- Shout Flagging Images: -->
                     <div id="linksFlaggingShouts">
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Flagging Shouts, Step 1:</strong> Click the "<span class="orangeColor">...</span>" to reveal the Message options</h5>
+                        <h5 class="text-center">
+                          <strong>Flagging Shouts, Step 1:</strong>
+                          <br>
+                          Click the "<span class="orangeColor">...</span>" to reveal the Message options
+                        </h5>
                         <a href="../img/about/flagging/1.PNG" title="Click ... to reveal Message options" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/flagging/1.PNG" alt="Click ... to reveal Message options" />
+                          <img class="img-responsive" src="../img/about/flagging/1.PNG" alt="Click ... to reveal Message options" />
                         </a>
                       </div>
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Flagging Shouts, Step 2:</strong><br>Select "Flag"</h5>
+                        <h5 class="text-center">
+                          <strong>Flagging Shouts, Step 2:</strong>
+                          <br>
+                          Select "Flag"
+                        </h5>
                         <a href="../img/about/flagging/2.PNG" title="Select Flag" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/flagging/2.PNG" alt="Select Flag" />
+                          <img class="img-responsive" src="../img/about/flagging/2.PNG" alt="Select Flag" />
                         </a>
                       </div>
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Flagging Shouts, Step 3:</strong> Click either "Nevermind" or "Flag"</h5>
+                        <h5 class="text-center">
+                          <strong>Flagging Shouts, Step 3:</strong>
+                          <br>
+                          Click either "Nevermind" or "Flag"
+                        </h5>
                         <a href="../img/about/flagging/3.PNG" title="Click either Nevermind or Flag" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/flagging/3.PNG" alt="Click either Nevermind or Flag" />
+                          <img class="img-responsive" src="../img/about/flagging/3.PNG" alt="Click either Nevermind or Flag" />
                         </a>
                       </div>                  
                     </div>
@@ -675,23 +697,34 @@ Begin Full Tutorial
                     <!-- Blocking Users Images: -->
                     <div id="linksBlockingUsers">
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Blocking users, Step 1:</strong> Click the "<span class="orangeColor">...</span>" at the top right of a Shout to reveal the Message options</h5>
+                        <h5 class="text-center">
+                          <strong>Blocking users, Step 1:</strong>
+                          <br>
+                          Click the "<span class="orangeColor">...</span>" at the top right of a Shout to reveal the Message options
+                        </h5>
                         <a href="../img/about/blocking/1.PNG" title="Click ... to reveal Message options" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/blocking/1.PNG" alt="Click ... to reveal Message options" />
+                          <img class="img-responsive" src="../img/about/blocking/1.PNG" alt="Click ... to reveal Message options" />
                         </a>
                       </div>
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Blocking users, Step 2:</strong> Select "Block user" from the button options</h5>
+                        <h5 class="text-center">
+                          <strong>Blocking users, Step 2:</strong>
+                          <br>
+                          Select "Block user" from the button options
+                        </h5>
                         <br>
                         <a href="../img/about/blocking/2.PNG" title="Select from the click-wheel the time to expire" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/blocking/2.PNG" alt="Select from the click-wheel the time to expire" />
+                          <img class="img-responsive" src="../img/about/blocking/2.PNG" alt="Select from the click-wheel the time to expire" />
                         </a>
                       </div>
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Blocking users, Step 3:</strong> Click OK</h5>
-                        <br>
+                        <h5 class="text-center">
+                          <strong>Blocking users, Step 3:</strong>
+                          <br>
+                          Click OK
+                        </h5>
                         <a href="../img/about/blocking/3.PNG" title="Click OK" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/blocking/3.PNG" alt="Click OK" />
+                          <img class="img-responsive" src="../img/about/blocking/3.PNG" alt="Click OK" />
                         </a>
                       </div>                  
                     </div>
@@ -701,28 +734,38 @@ Begin Full Tutorial
 
                     <!-- Unblocking Users - Settings -->
                     <h4 id="unblockingUsers" class="boldStyle scriptFont"><strong>Unblocking Users</strong></h4>
-                    <ul>
-                      <li><p>Want to <strong>Unblock</strong> someone? Browse to the Settings tab and follow the below steps:</p></li>
-                    </ul>
+                    <p>Want to <strong>Unblock</strong> someone? Browse to the Settings tab and follow the below steps:</p>
                     <!-- Unblocking Users Images: -->
                     <div id="linksBlockingUsers2">
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Unblocking users, Step 1:</strong> Browse to "Settings" and then click "Blocked Users and Sponsors" at the bottom of the page.</h5>
+                        <h5 class="text-center">
+                          <strong>Unblocking users, Step 1:</strong>
+                          <br>
+                          Browse to "Settings" and then click "Blocked Users and Sponsors" at the bottom of the page.
+                        </h5>
                         <a href="../img/about/blocking/4.PNG" title="Browse to Settings and then click Blocked Users and Sponsors at the bottom of the page." data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/blocking/4.PNG" alt="Browse to Settings and then click Blocked Users and Sponsors at the bottom of the page." />
+                          <img class="img-responsive" src="../img/about/blocking/4.PNG" alt="Browse to Settings and then click Blocked Users and Sponsors at the bottom of the page." />
                         </a>
                       </div>
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Unblocking users, Step 2:</strong> This is a list of all the Shmap users you have blocked. Click the "<span class="orangeColor">...</span>" next to a user's name to reveal option to unblock the user.</h5>
+                        <h5 class="text-center">
+                          <strong>Unblocking users, Step 2:</strong>
+                          <br>
+                          This is a list of all the Shmap users you have blocked. Click the "<span class="orangeColor">...</span>" next to a user's name to reveal option to unblock the user.
+                        </h5>
                         <br>
                         <a href="../img/about/blocking/5.PNG" title="This is a list of all the Shmap users you have blocked. Click the ... next to a user's name to reveal option to unblock the user." data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/blocking/5.PNG" alt="This is a list of all the Shmap users you have blocked. Click the ... next to a user's name to reveal option to unblock the user." />
+                          <img class="img-responsive" src="../img/about/blocking/5.PNG" alt="This is a list of all the Shmap users you have blocked. Click the ... next to a user's name to reveal option to unblock the user." />
                         </a>
                       </div>
                       <div class="col-sm-4">
-                        <h5 class="text-center"><strong>Unblocking users, Step 3:</strong> Click "Unblock"</h5>
+                        <h5 class="text-center">
+                          <strong>Unblocking users, Step 3:</strong>
+                          <br>
+                          Click "Unblock"
+                        </h5>
                         <a href="../img/about/blocking/6.PNG" title="Click Unblock" data-gallery>
-                          <img class="img-responsive lazyload" src="../img/about/blocking/6.PNG" alt="Click Unblock" />
+                          <img class="img-responsive" src="../img/about/blocking/6.PNG" alt="Click Unblock" />
                         </a>                          
                       </div>
                     </div>
@@ -743,9 +786,6 @@ Begin Full Tutorial
               -->
 
 
-
-
-
               <!-- 
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -757,7 +797,7 @@ Begin Full Tutorial
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               -->
-              <div class="col-md-12">
+              <div class="col-sm-12">
                 <ul id="mainSections" class="list-group">
                   <li class="list-group-item disabled">
                     <h4 class="listHeader scriptFont"><img src="img/about/icons/settings.png" style="max-width:20px;"> Main Sections of Shmap</h4>
@@ -783,8 +823,10 @@ Begin Full Tutorial
                       </li>
                     </ul>
                     <br>
-                    <img class="img-responsive lazyload thumbnailPhotoMain" src="../img/about/tabs.png" alt="Tabs" />
+                    
+                    <img id="tabs-img" class="img-responsive" src="../img/about/tabs.png" alt="Tabs" title="Intro to the Shmap Tabs" />
                     <div class="clear"></div>
+
                   </li>
                   <!-- End Tabs -->
 
@@ -792,7 +834,7 @@ Begin Full Tutorial
                   <li class="list-group-item">
                     <p id="messages" class="listHeader scriptFont">Messages Tab</p>
                       <ul>
-                        <li><p><span class="boldStyle">Sending New Messages</span>: Click "<span class="boldStyle" style="color: #e69f12;">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>. </p></li>
+                        <li><p><span class="boldStyle">Sending New Messages</span>: Click "<span class="boldStyle" style="color: #e69f12;">New</span>" (from the top right of the Messages and Explore tabs). This opens the <a href="../img/about/5-newmessage.png" target="_blank">"New Message" screen</a>.</p></li>
 
                         <li><p><span class="boldStyle">Welcome Message</span>: When you first download Shmap, there will be at least one message in your inbox. That's from us!</p></li>
                         
@@ -801,7 +843,7 @@ Begin Full Tutorial
                         <li><p><span class="boldStyle">Message Threads</span>: Message threads in Shmap behave as follows: Your messages appear in bubbles on the right side of the screen. The person or persons you are chatting with appear on the left side of the screen. Your message bubbles are blue. The message bubbles of the person(s) you are chatting with are grey (and their profile pictures are visible). See screenshot below for an example of a group message thread:</p></li>
                         <div id="links4">
                           <a href="../img/about/messagesTab/message_thread.png" title="Message Thread example" data-gallery>
-                            <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/messagesTab/message_thread.png" alt="Message Thread example" />
+                            <img class="img-responsive thumbnailPhotoSmall" src="../img/about/messagesTab/message_thread.png" alt="Message Thread example" />
                           </a> 
                         </div>
                         <p></p>
@@ -842,7 +884,7 @@ Begin Full Tutorial
                   <li class="list-group-item">
                     <p id="explore" class="listHeader scriptFont">Explore Tab</p>
                       <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-sm-12">
                           <p><span class="boldStyle">Overview</span>: Simply put, the <em>Explore</em> feed is your view into all of the Shouts around you! The Shouts closest to your current location will appear near the top. As you scroll down, the radius widens, giving you a look at Shouts further and further away. Think of Explore much like your Twitter or Instagram feeds. This is where you explore the Shmap universe.</p>
                           <ul>
                             <li><p><span class="boldStyle">"Like" Shouts</span>: Click into any Shout and you'll see an outline of a heart (<a href="../img/about/explore/not_liked.png" target="_blank">see example</a>). Tap on it to "Like" it, and it will turn solid red (<a href="../img/about/explore/liked.png" target="_blank">see example</a>)</p></li>
@@ -864,7 +906,7 @@ Begin Full Tutorial
                   <li class="list-group-item">
                     <p id="contacts" class="listHeader scriptFont">Contacts Tab</p>
                     <div class="row">
-                      <div class="col-md-9">
+                      <div class="col-sm-9">
                         <p>The "Contacts" tab is where all of your Shmap contacts are collected. It is also here where you can invite other Shmap users to be contacts with you or even send invites to your iPhone contacts so that they can download Shmap.</p>
                         <ul>
                           <li>
@@ -880,12 +922,12 @@ Begin Full Tutorial
                               </li>
                               <div id="links5">
                                 <a href="../img/about/contacts_my_contacts.png" title="Invite Phone Contact - List View" data-gallery>
-                                  <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/contacts_my_contacts.png" alt="Invite Phone Contact - List View" />
+                                  <img class="img-responsive thumbnailPhotoSmall" src="../img/about/contacts_my_contacts.png" alt="Invite Phone Contact - List View" />
                                 </a> 
                               </div>
                               <div id="links6">
                                 <a href="../img/about/contacts_my_contacts2.png" title="Invite Phone Contact - Invite Options appear after clicking on a name" data-gallery>
-                                  <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/contacts_my_contacts2.png" alt="Invite Phone Contact - Invite Options appear after clicking on a name" />
+                                  <img class="img-responsive thumbnailPhotoSmall" src="../img/about/contacts_my_contacts2.png" alt="Invite Phone Contact - Invite Options appear after clicking on a name" />
                                 </a> 
                               </div>
                               <div class="clear"></div>
@@ -894,12 +936,12 @@ Begin Full Tutorial
                               </li>
                               <div id="links7">
                                 <a href="../img/about/contacts_search_shmap_users.png" title="Add New Shmap Contacts - Search by username" data-gallery>
-                                  <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/contacts_search_shmap_users.png" alt="Add New Shmap Contacts - Search by username" />
+                                  <img class="img-responsive thumbnailPhotoSmall" src="../img/about/contacts_search_shmap_users.png" alt="Add New Shmap Contacts - Search by username" />
                                 </a> 
                               </div>
                               <div id="links8">
                                 <a href="../img/about/contacts_search_shmap_users2.png" title="Add New Shmap Contacts - From Profile, Click Add" data-gallery>
-                                  <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/contacts_search_shmap_users2.png" alt="Add New Shmap Contacts - From Profile, Click Add" />
+                                  <img class="img-responsive thumbnailPhotoSmall" src="../img/about/contacts_search_shmap_users2.png" alt="Add New Shmap Contacts - From Profile, Click Add" />
                                 </a> 
                               </div>
                               <div class="clear"></div>
@@ -909,20 +951,21 @@ Begin Full Tutorial
                           <li>
                             <p><span class="boldStyle">Contact Approvals &amp; Pending requests</span>: </p>
                             <div class="row">
-                              <div class="col-md-6">
+                              <div class="col-sm-6">
                                 <p>When another user has invited you to be contacts in Shmap, you will see them appear in your contacts with two buttons. The X will reject their invite. The check mark will accept it.</p>
                                 <div id="links9">
                                   <a href="../img/about/contacts_approve_invite.png" title="Contact Approvals" data-gallery>
-                                    <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/contacts_approve_invite.png" alt="Contact Approvals" />
+                                    <img class="img-responsive thumbnailPhotoSmall" src="../img/about/contacts_approve_invite.png" alt="Contact Approvals" />
                                   </a> 
                                 </div> 
                                 <div class="clear"></div>   
                               </div>
-                              <div class="col-md-6">
+                              
+                              <div class="col-sm-6">
                                 <p>When you send an invite to a Shmap user they appear in your contacts with a note: "Pending request". If they approve you, this note will disappear and you can begin messaging them.</p>
                                 <div id="links10">
                                   <a href="../img/about/contacts_pending_invite.png" title="Contact Approvals - Pending Invite" data-gallery>
-                                    <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/contacts_pending_invite.png" alt="Contact Approvals - Pending Invite" />
+                                    <img class="img-responsive thumbnailPhotoSmall" src="../img/about/contacts_pending_invite.png" alt="Contact Approvals - Pending Invite" />
                                   </a> 
                                 </div> 
                                 <div class="clear"></div>
@@ -932,22 +975,35 @@ Begin Full Tutorial
 
                           <li>
                             <p><span class="boldStyle">Remove Contact</span>:</p>
-                            <p>To remove an existing contact, simply browse to their profile from your Contacts Tab and click the "Remove" button.</p>
-                            <div id="links11">
-                              <a href="../img/about/contacts_remove_contact.png" title="Remove Contact" data-gallery>
-                                <img class="img-responsive lazyload thumbnailPhotoSmall" src="../img/about/contacts_remove_contact.png" alt="Remove Contact" />
-                              </a> 
-                            </div>    
-                            <div class="clear"></div>                             
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <p>To remove an existing contact, simply browse to their profile from your Contacts Tab and click the "Remove" button.</p>
+                                <div id="links11">
+                                  <a href="../img/about/contacts_remove_contact.png" title="Remove Contact" data-gallery>
+                                    <img class="img-responsive thumbnailPhotoSmall" src="../img/about/contacts_remove_contact.png" alt="Remove Contact" />
+                                  </a> 
+                                </div>    
+                                <div class="clear"></div>  
+                              </div>
+                            </div>
                           </li>
 
                         </ul>
+
                       </div>
 
+
                       <!-- Screenshot on right -->
-                      <div class="col-md-3">
-                        <a href="../img/about/16-Contacts.png" target="_blank"><img class="img-responsive lazyload thumbnailPhotoMain thumbnail" src="../img/about/16-Contacts.png" alt="Contacts" /></a>
+                      <div id="linksContactsImage" class="col-sm-3">
+                        <a href="../img/about/16-Contacts.png" title="Contacts Tab" data-gallery>
+                          <img class="img-responsive thumbnailPhotoMain" src="../img/about/16-Contacts.png" alt="Contacts Tab" />
+                        </a>
                       </div>
+                      <div class="clear"></div>
+
+
+
+
                     </div> <!-- End Row -->
                   </li>
                   <!-- End Contacts Tab -->
@@ -956,7 +1012,7 @@ Begin Full Tutorial
                   <li class="list-group-item">
                     <p id="settings" class="listHeader scriptFont">Settings Tab</p>
                     <div class="row">
-                      <div class="col-md-9">
+                      <div class="col-sm-9">
                         <p>The "Settings" tab includes links to the following:</p>
                         <ul>
                           <li>
@@ -995,11 +1051,15 @@ Begin Full Tutorial
                           <li><p><span class="boldStyle">About Shmap</span>: This screen provides the Shmap version number, a link to the "About" webpage, and the "<a href="mailto:help@ideally.net">help@ideally.net</a>" email address.</p></li>
                         </ul>
                       </div>
-                      
+
                       <!-- Screenshot on right -->
-                      <div class="col-md-3">
-                        <a href="../img/about/24-settings.png" target="_blank"><img class="img-responsive lazyload thumbnailPhotoMain thumbnail" src="../img/about/24-settings.png" alt="Settings" /></a>
+                      <div id="linksSettingsTab" class="col-sm-3">
+                        <a href="../img/about/24-settings.png" title="Settings Tab" data-gallery>
+                          <img class="img-responsive thumbnailPhotoMain" src="../img/about/24-settings.png" alt="Settings Tab" />
+                        </a>
                       </div>
+                      <div class="clear"></div>
+
                     </div>
                   </li>
                   <!-- End Settings Tab -->
@@ -1081,11 +1141,12 @@ End full Tutorial ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
                     <p class="faqAnswer">A: Not at the moment, but if you want to send us your resume, please go right ahead. As Shmap grows, so will our office! <a href="mailto:info@ideally.net">info [at] ideally.net</a></p>
                   </li>
                 </ul>
+
 <!-- Begin Attributions -->
-              <div class="attributions text-grey well">
-                <h4>Hand-drawn arrows in the tutorial above were designed by <a class="boldStyle" href="http://www.freepik.com/" style="font-size: 1em;">Freepik</a></h4>
-              </div>
-  <!-- End Attributions -->
+	              <div class="attributions text-grey well">
+	                <h4>Hand-drawn arrows in the tutorial above were designed by <a class="boldStyle" href="http://www.freepik.com/" style="font-size: 1em;">Freepik</a></h4>
+	              </div>
+<!-- End Attributions -->
               </div>
 
               <!-- 
@@ -1122,31 +1183,31 @@ End full Tutorial ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
       -->
       <footer>
         <div class="container">
-            <div class="col-md-4 animated fadeIn">
-              <a href="index.php"><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive"></a>
-              <p class="text-muted">Copyright &copy; <?php echo date("Y") ?> ideally, LLC | Shmap</p>
-            </div>
+          <div class="col-sm-4 animated fadeIn">
+            <a href="index.php"><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive"></a>
+            <p class="text-muted">Copyright &copy; <?php echo date("Y") ?> ideally, LLC | Shmap</p>
+          </div>
 
-            <div class="col-md-4">
-              <a href="index.php">
-                <div class="social-icon-div animated fadeIn">
-                  <a href="https://www.facebook.com/shmap" target="_blank"><img src="img/social/Facebook.png" alt="Facebook Icon" class="social-icon"></a>
-                  <a href="https://twitter.com/shmapapp" target="_blank"><img src="img/social/Twitter.png" alt="Twitter Icon" class="social-icon"></a>
-                  <a href="http://www.instagram.com/shmapapp" target="_blank"><img src="img/social/Instagram.png" alt="Instagram Icon" class="social-icon"></a>
-                  <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank"><img src="img/social/appStore.png" alt="App Store Icon" class="social-icon"></a>
-                </div>
-              </a>
-            </div>
+          <div class="col-sm-4">
+            <a href="index.php">
+              <div class="social-icon-div animated fadeIn">
+                <a href="https://www.facebook.com/shmap" target="_blank"><img src="img/social/Facebook.png" alt="Facebook Icon" class="social-icon"></a>
+                <a href="https://twitter.com/shmapapp" target="_blank"><img src="img/social/Twitter.png" alt="Twitter Icon" class="social-icon"></a>
+                <a href="http://www.instagram.com/shmapapp" target="_blank"><img src="img/social/Instagram.png" alt="Instagram Icon" class="social-icon"></a>
+                <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank"><img src="img/social/appStore.png" alt="App Store Icon" class="social-icon"></a>
+              </div>
+            </a>
+          </div>
 
-            <div class="col-md-4">
-              <p class="text-muted footer-links-p">
-                <a href="contact.php" class="footer-link">Contact Us</a>
-                <br>
-                <a href="http://terms.shmap.me" class="footer-link">Terms &amp; Privacy Policy</a>
-                <br>
-                <a href="http://www.ideally.net" target="_blank" class="footer-link">ideally.net</a>
-              </p>
-            </div>
+          <div class="col-sm-4">
+            <p class="text-muted footer-links-p">
+              <a href="http://shmap.me/contact.php" class="footer-link">Contact Us</a>
+              <br>
+              <a href="http://terms.shmap.me" class="footer-link">Terms &amp; Privacy Policy</a>
+              <br>
+              <a href="http://www.ideally.net" target="_blank" class="footer-link">ideally.net</a>
+            </p>
+          </div>
 
         </div>
 
