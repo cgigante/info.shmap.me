@@ -13,8 +13,14 @@
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+<!-- Lazyload -->
+<!-- <script src="js/jquery.lazyload.min.js"></script> -->
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- Image Gallery Javascript Links -->
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.min.js"></script>
+
 
 
 <!-- The following script changes the navbar when scrolling down -->
@@ -33,10 +39,7 @@
   });
 </script>
 
-<!-- Image Gallery Javascript Links -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-<script src="js/bootstrap-image-gallery.min.js"></script>
+
 
 <!-- ####################################################
 The following script provides the SCROLL functionality 
@@ -51,4 +54,19 @@ $('a[href^="#"]').on('click', function(event) {
       }, 1500);
   }
 });
+</script>
+
+
+<!-- 
+The following script pertains to the LazyLoad jQuery plugin: 
+http://www.appelsiini.net/projects/lazyload
+-->
+<script>
+  $(function() {
+    $("img.lazy").lazyload({
+      effect : "fadeIn",
+      threshold : 200,
+      failure_limit : 20
+    });
+  });
 </script>
