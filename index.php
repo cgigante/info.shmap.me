@@ -113,12 +113,12 @@ Begin Intro About/Tutorial/FAQs
                 <!-- Begin Row -->
                 <div class="row">
 
-                  <div class="col-sm-12">       
+                  <div class="col-sm-8">       
                     <!-- About Shmap Text -->
                     <h4 id="shmapIntro">
-                      <span class="boldStyle orangeColor">Shmap</span> is a location-based mobile messaging application <a href="https://appsto.re/us/NM4o7.i" target="_blank">now available on iPhone</a>.
+                      <span class="boldStyle orangeColor scriptFont">Shmap</span> is a location-based mobile messaging application <a href="https://appsto.re/us/NM4o7.i" target="_blank">now available on iPhone</a>.
                       <br><br>
-                      <span class="boldStyle orangeColor">Shmap</span> changes the game by transforming ordinary messages into <em>moments</em>.
+                      <span class="boldStyle orangeColor scriptFont">Shmap</span> changes the game by transforming ordinary messages into <em>moments</em>.
                       Its magic comes from messages that are delivered – either privately, to groups or to the general public – only when the recipients enter a location associated with the message. Connecting digital conversations with <em>PLACE</em> changes the game  by enabling a new way of communicating.<br><br>
                       <!-- <span class="boldStyle orangeColor">Shmap</span> allows you to leave a message for your friend when she walks into the coffee shop, reminding her you bought last time and she owes you one!<br><br>
                       <span class="boldStyle orangeColor">Shmap</span> reminds your pal to take it easy this time as he enters bar that he got blotto in during your last wild night out.<br><br>
@@ -130,16 +130,12 @@ Begin Intro About/Tutorial/FAQs
                       <br>
                       <a class="boldStyle" href="inapptutorial.php">Click here</a> for the in-app tutorial screens (in case you missed them the first time around.)
                       <br>
-                      <br>
-                      Watch our brief video below for an intro to Shmap</a>:
                     </h4>
                     <!-- End h4 ShmapIntro -->
                     <div class="clear"></div>
                     <br>
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe  class="embed-responsive-item" src="https://player.vimeo.com/video/175757213" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-<!-- End About Shmap -->                    
+
+              
 
 
 <!-- Begin Bootstrap Image Gallery lightbox -->
@@ -175,15 +171,41 @@ Begin Intro About/Tutorial/FAQs
                           </div>
                         </div>
   	                  </div>
-  		              </div>
-<!-- end blueimp-gallery controls -->
-                  </div>
-                  <!-- end col-sm-12 -->
-                </div>
-                <!-- end row -->
-              </div>
-              <!-- end aboutShmap div -->
+  		              </div><!-- end blueimp-gallery controls -->
+                    
+                  </div><!-- end col-sm-8 -->
+                  
+                  <div class="col-sm-4">
+                    <h3 class="text-center"><span class="orangeColor scriptFont">Download the Shmap Quickstart Guide!</h3></span>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="div-dl-images">
+                          <div class="hovereffect">
+                            <img src="http://shmap.me/quickstart/quickstart_image.png" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
+                            <div class="overlay">
+                               <a class="info" href="http://bit.ly/shmap-quick" download>Download the Shmap<br>Quickstart Guide</a>
+                            </div>
+                          </div>                    
+                        </div>
+                      </div>
+                    </div> 
+                  </div> <!-- end col-sm-4 -->
 
+                </div><!-- end row -->
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe  class="embed-responsive-item" src="https://player.vimeo.com/video/175757213" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div> <!-- end row -->
+                
+              </div><!-- end aboutShmap div -->
+              
+<!-- End About Shmap -->      
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
