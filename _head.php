@@ -26,7 +26,7 @@
     <title>About Shmap | Info &amp; Help</title>
 
     <!-- Start of Async Drift Code -->
-    <script>
+    <!-- <script>
     !function() {
       var t;
       return t = window.driftt = window.drift = window.driftt || [], t.init ? void 0 : t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
@@ -47,5 +47,5 @@
     }();
     drift.SNIPPET_VERSION = '0.2.0'
     drift.load('4fcgug2grz6d')
-    </script>
+    </script> -->
     <!-- End of Async Drift Code -->
